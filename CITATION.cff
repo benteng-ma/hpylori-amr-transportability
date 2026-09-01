@@ -2,9 +2,10 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the archived release and associated article when available."
 title: "External validation of genomic resistance prediction in Helicobacter pylori across independent cohorts"
 type: software
-version: 0.4.0-mgen-rc2
+version: 1.0.0
 date-released: 2026-09-01
 license: MIT
+repository-code: "https://github.com/benteng-ma/hpylori-amr-transportability"
 abstract: "Lineage-aware external validation of published Helicobacter pylori genomic antimicrobial-resistance predictors."
 authors:
   - family-names: Ma

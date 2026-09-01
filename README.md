@@ -14,6 +14,12 @@ This versioned release candidate contains the frozen configuration, executable a
 
 Code is released under the MIT License. Compact author-generated derived data are intended for CC BY 4.0 release. Public source sequences and third-party phenotype resources remain subject to their original repository and publication terms. No new sequence data were generated.
 
+## Repository and archival status
+
+Source repository: https://github.com/benteng-ma/hpylori-amr-transportability
+
+A version-specific Zenodo DOI will be inserted here and in `CITATION.cff` before article submission.
+
 ## Pre-release status
 
-This is an author-review candidate. It may first be published as a private GitHub repository to establish the final repository URL. Insert the final repository URL and version DOI in `CITATION.cff` and the manuscript, complete the release checklist, and verify a clean clone before making the repository public or submitting the article.
+This repository has passed local content, path, credential, licence, archive-integrity, and regression checks. The version tag, Zenodo DOI, clean-clone verification, and manuscript DOI synchronization remain pending.
