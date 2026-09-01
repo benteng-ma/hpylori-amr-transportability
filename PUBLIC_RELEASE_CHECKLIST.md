@@ -2,6 +2,7 @@
 
 - [x] All five authors approve the public release.
 - [x] GitHub repository URL is final: `https://github.com/benteng-ma/hpylori-amr-transportability`.
+- [x] Repository visibility is public and has been verified without an authenticated GitHub session.
 - [ ] Version tag matches `CITATION.cff`.
 - [ ] Zenodo version DOI has been minted and resolves.
 - [ ] Repository URL and DOI are synchronized across the manuscript, Data Summary, cover letter, portal metadata, README, and CITATION.cff.

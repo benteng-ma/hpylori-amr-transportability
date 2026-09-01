@@ -22,4 +22,4 @@ A version-specific Zenodo DOI will be inserted here and in `CITATION.cff` before
 
 ## Pre-release status
 
-This repository has passed local content, path, credential, licence, archive-integrity, regression, and clean-clone checks. At commit `62ec131204dcc380748d170bb2a7617f9afebf90`, a fresh Windows clone passed 55 public tests with two documented skips for intentionally excluded third-party source files, and all 273 manifest entries matched by size and SHA-256. The version tag, Zenodo DOI, and manuscript DOI synchronization remain pending; the repository remains private until the archival-release workflow is completed.
+This public repository has passed local content, path, credential, licence, archive-integrity, regression, and clean-clone checks. At commit `62ec131204dcc380748d170bb2a7617f9afebf90`, a fresh Windows clone passed 55 public tests with two documented skips for intentionally excluded third-party source files, and all 273 manifest entries matched by size and SHA-256. The version tag, Zenodo DOI, and manuscript DOI synchronization remain pending.
