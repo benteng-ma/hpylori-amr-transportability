@@ -1,0 +1,8 @@
+sample,marker,reference_sequence,reference_position,reference_base,depth,pileup_bases,status
+S27,23S_copy1_A2142,NC_000915.1,447394,A,14,".,..........,.",PASS
+S27,23S_copy1_A2143,NC_000915.1,447395,A,14,G$gGGGGGGGGGGgG,PASS
+S27,23S_copy2_A2142,NC_000915.1,1474748,T,5,.....,LOW_COVERAGE
+S27,23S_copy2_A2143,NC_000915.1,1474747,T,5,CCCCC,LOW_COVERAGE
+S27,gyrA_N87_codon1,NC_000915.1,752770,A,6,",,,,,.",LOW_COVERAGE
+S27,gyrA_A88_codon1,NC_000915.1,752773,G,5,",,,,.",LOW_COVERAGE
+S27,gyrA_D91_codon1,NC_000915.1,752782,G,4,",,,.",LOW_COVERAGE

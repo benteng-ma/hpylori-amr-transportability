@@ -1,6 +1,8 @@
 from pathlib import Path
 import sys
 
+import pytest
+
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
@@ -15,6 +17,9 @@ def test_frozen_assembly_acquisition_set():
 
 
 def test_frozen_zenodo_read_acquisition_set():
+    raw_record = ROOT / "metadata/raw/zenodo_10369064_2026-08-30.json"
+    if not raw_record.is_file():
+        pytest.skip("Zenodo source metadata are intentionally excluded from the public release")
     tasks = zenodo_tasks(ROOT)
     assert len(tasks) == 52
     assert len({task.isolate_id for task in tasks}) == 52
