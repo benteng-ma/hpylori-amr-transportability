@@ -4,6 +4,7 @@ title: "External validation of genomic resistance prediction in Helicobacter pyl
 type: software
 version: 1.0.0
 date-released: 2026-09-01
+doi: "10.5281/zenodo.22234594"
 license: MIT
 repository-code: "https://github.com/benteng-ma/hpylori-amr-transportability"
 abstract: "Lineage-aware external validation of published Helicobacter pylori genomic antimicrobial-resistance predictors."
