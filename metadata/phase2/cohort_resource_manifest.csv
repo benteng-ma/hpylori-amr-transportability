@@ -1,0 +1,2 @@
+dataset_id,resource_id,resource_role,source_url,local_path,bytes,md5,sha256,verified,notes
+ZENODO_10369064,Merge.SNP_52.csv,public cohort SNP matrix supporting population-structure audit,https://zenodo.org/api/records/10369064/files/Merge.SNP_52.csv/content,data/raw/support/zenodo_10369064/Merge.SNP_52.csv,162666072,a4c215cb7caead12c43fc084d6e8241e,fe6b43507ce0d2d123b6e7d22aa4c98fc6a7574d682fc53b333f74047d400d23,yes,"VCF-like 52-sample table; supporting resource only, not a substitute for raw-read marker calls"

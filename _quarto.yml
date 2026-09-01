@@ -1,0 +1,10 @@
+project:
+  type: manuscript
+  output-dir: results/rendered
+manuscript:
+  article: manuscript/manuscript.qmd
+format:
+  html: default
+  docx: default
+bibliography: literature/library.bib
+

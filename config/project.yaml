@@ -1,0 +1,17 @@
+project_id: hpylori-amr-transportability
+canonical_root: "E:/1 Codex project/hpylori-amr-transportability"
+stage: PHASE_0_CONDITIONAL_GO_CLR_LVX_BINARY
+phase0_cutoff_date: 2026-08-30
+organism:
+  scientific_name: Helicobacter pylori
+  taxid: 210
+public_data_only: true
+primary_endpoint: isolate_level_phenotypic_ast
+reference:
+  accession: NC_000915.1
+  strain: "26695"
+phase1_prespecified_processing_unlocked: true
+full_analysis_locked:
+  performance_driven_selection: true
+  final_results_before_complete_frozen_analysis: true
+  broad_geographic_claims: true

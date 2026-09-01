@@ -1,0 +1,4 @@
+dataset_id,n_isolates,n_public_assemblies,n_raw_read_packages,n_final_qc_pass,n_clarithromycin_phenotypes,n_clarithromycin_callable,n_levofloxacin_phenotypes,n_levofloxacin_callable,n_recomputed_lineages
+CHINA_NINGXIA_2022,60,60,0,57,60,6,60,57,4
+HPGP_GLOBAL,414,414,0,414,414,414,414,414,8
+ZENODO_10369064,52,0,52,46,50,46,48,42,3

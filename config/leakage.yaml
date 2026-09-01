@@ -1,0 +1,27 @@
+status: FROZEN_BEFORE_PERFORMANCE_INSPECTION
+development_cohort: HPGP_GLOBAL
+models:
+  - MUTATION_ONLY_LOGISTIC
+  - LINEAGE_ONLY_LOGISTIC
+  - MUTATION_PLUS_LINEAGE_LOGISTIC
+logistic:
+  penalty: l2
+  C: 1.0
+  solver: liblinear
+  decision_threshold: 0.5
+random_split:
+  repeats: 100
+  test_fraction: 0.20
+clone_grouped:
+  folds: 5
+random_seed: 20260830
+negative_controls:
+  training_label_permutations: 100
+  random_core_snp_panels: 100
+  random_panel_matching: frozen_panel_size_and_HpGP_marker_prevalence
+  random_panel_feature_selection: phenotype_blind_HpGP_only
+  clone_thinning: lexicographic_first_per_near_clone_component
+  patient_thinning: NOT_ESTIMABLE_public_identifiers_unavailable
+notes:
+  - No hyperparameter tuning or feature selection is permitted.
+  - Random-isolate performance is an optimism comparator, never external validation.

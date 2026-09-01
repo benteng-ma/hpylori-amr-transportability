@@ -1,0 +1,22 @@
+status: FROZEN_2026-08-30
+principles:
+  - preserve_original_interpretation
+  - record_standard_and_version
+  - recompute_only_when_mic_and_exact_breakpoint_are_recoverable
+  - retain_censoring_operator
+  - do_not_select_breakpoint_by_best_performance
+standards_to_audit:
+  - EUCAST
+  - CLSI
+  - BSAC
+  - USCAST
+  - study_defined
+primary_binary_policy:
+  intermediate: exclude
+  sensitivity_analyses: [intermediate_as_susceptible, intermediate_as_resistant]
+ningxia_clarithromycin:
+  primary: preserve_publication_P_R
+  borderline_set: "MIC = 0.5 mg/L"
+zenodo_10369064:
+  role: secondary_phenotype_method_stress_test
+  prohibit_breakpoint_optimization: true

@@ -1,0 +1,7 @@
+dataset_id,antibiotic,marker_prediction,n,n_right_censored,mic_median_lower_bound,mic_q1_lower_bound,mic_q3_lower_bound,mann_whitney_u,mann_whitney_p,interpretation
+CHINA_NINGXIA_2022,clarithromycin,R,2,0,8.0,8.0,8.0,,,cohort-limited lower-bound rank summary; not a multi-cohort continuous endpoint
+CHINA_NINGXIA_2022,clarithromycin,S,4,0,0.0945,0.064,0.21875,,,cohort-limited lower-bound rank summary; not a multi-cohort continuous endpoint
+CHINA_NINGXIA_2022,levofloxacin,R,19,7,8.0,0.5,32.0,,,cohort-limited lower-bound rank summary; not a multi-cohort continuous endpoint
+CHINA_NINGXIA_2022,levofloxacin,S,38,6,0.75,0.125,8.0,,,cohort-limited lower-bound rank summary; not a multi-cohort continuous endpoint
+CHINA_NINGXIA_2022,clarithromycin,R_VS_S_TEST,6,0,,,,0.0,0.09520470468773326,exploratory lower-bound rank test with censoring retained in source data
+CHINA_NINGXIA_2022,levofloxacin,R_VS_S_TEST,57,13,,,,250.5,0.06038789616934376,exploratory lower-bound rank test with censoring retained in source data

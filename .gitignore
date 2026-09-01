@@ -1,0 +1,58 @@
+# Local environments and tools
+.micromamba/
+.tools/
+.conda/
+.snakemake/
+.renv/
+renv/library/
+node_modules/
+
+# Downloaded public data (tracked through manifests and checksums)
+data/raw/**
+data/interim/**
+data/assemblies/**
+data/variants/**
+data/phylogeny/**
+data/processed/**
+!data/raw/.gitkeep
+!data/assemblies/.gitkeep
+!data/variants/.gitkeep
+!data/phylogeny/.gitkeep
+!data/processed/.gitkeep
+
+# Generated results and logs
+results/**
+!results/**/.gitkeep
+!results/*/
+!results/*/.gitkeep
+!results/smoke/
+!results/smoke/**
+!results/logs/
+!results/logs/environment_versions.txt
+# Compact, publication-facing result tables are part of the reproducibility archive.
+!results/external_validation/*.csv
+!results/external_validation/*.json
+!results/lineage_validation/*.csv
+!results/mic/*.csv
+!results/negative_controls/*.csv
+!results/qc/*.csv
+!results/sensitivity/*.csv
+!results/source_data/*.csv
+!results/extended_analysis/*.csv
+!results/transport_shift/*.csv
+
+# OS/editor/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db
+*.baiduyun.uploading.cfg
+tmp/
+reports/qa_docx/
+reports/qa_word/
+reports/qa_author_update/
+qa/
+outputs/

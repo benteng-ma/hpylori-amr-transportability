@@ -1,0 +1,7 @@
+dataset_id,n_isolates,lineage_reported,lineage_method,lineage_groups,n_per_group,assemblies_sufficient,raw_reads_sufficient,fast_distance_feasible,core_snp_feasible,near_clone_feasible,leave_lineage_out_feasible,verified,limitations
+HPGP_GLOBAL,414,yes,published population assignments,multiple global populations,available in source metadata,yes,partial,yes,yes,yes,yes,yes,Five phenotype IDs lack an exact current assembly-name link
+CHINA_NINGXIA_2022,60,yes,published phylogeny and lineage assignment,hpEastAsia subgroups,recoverable from publication,yes,yes,yes,yes,yes,conditional,yes,Small subgroup sizes require minimum-event gates; leave-lineage-out is a stress test rather than primary estimator
+ZENODO_10369064,52,study phylogeny only,phylogenetic tree,not formalized,not reported,no,yes,yes,yes,yes,conditional,partial,Lineages must be recomputed; only Chinese sites and custom disk-diffusion phenotype thresholds
+LINQU_2025,153,yes,published population structure,predominantly hpEastAsia,reported aggregate,yes,no,yes,yes,yes,limited,yes,No public isolate-level phenotype linkage; suitable only for sequence/population smoke work at present
+US_MAYO_2025,530,yes,published population structure,multiple,reported aggregate,yes,yes,yes,yes,yes,not_for_public_benchmark,yes,No public isolate-level phenotype linkage
+ISRAEL_2020,48,yes,published population structure,multiple,reported aggregate,no,no,no,no,no,no,partial,Claimed public repository returned no sequence records on audit date

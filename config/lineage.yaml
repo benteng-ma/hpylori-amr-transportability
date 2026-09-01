@@ -1,0 +1,23 @@
+status: FROZEN_BEFORE_FULL_SEQUENCE_PROCESSING
+core_snp:
+  caller: snippy_4.6.0
+  reference: GCF_000008525.1
+  minimum_mapping_quality: 20
+  minimum_base_quality: 20
+  minimum_variant_quality: 20
+  freebayes_options: -i -X -u --haplotype-length 0
+  variant_scope: snp_only_non_indel_non_mnp_non_complex
+  assembly_mode: contigs_shredded_to_20x_pseudoreads_by_snippy
+genetic_clusters:
+  fitting_cohort: HPGP_GLOBAL
+  external_assignment: transform_and_nearest_kmeans_centroid_without_refitting
+  feature_space: training_variable_site_by_nonreference_allele_sparse_matrix
+  dimension_reduction: truncated_svd
+  components: 20
+  clustering: kmeans
+  clusters: 8
+  random_seed: 20260830
+notes:
+  - Labels are de novo genetic clusters for leakage-aware validation, not claims of formal hp population nomenclature.
+  - Cluster construction is phenotype-blind and was frozen before performance inspection.
+  - SNP feature selection, SVD fitting, and K-means fitting use HpGP only; external genomes are transformed and assigned without refitting.

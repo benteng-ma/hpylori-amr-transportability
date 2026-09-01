@@ -1,0 +1,7 @@
+section,metric,value,denominator,notes
+configuration,frozen_blast_task,megablast,,primary caller
+configuration,frozen_minimum_identity,0.9,,fraction
+configuration,frozen_minimum_query_coverage,0.05,,fraction
+result,frozen_callable_final_qc,6,57,unchanged primary callability
+recovery_class,CALLABLE_MARKER_SPANNING,7,60,all Ningxia assemblies
+recovery_class,PARTIAL_23S_NO_MARKER_SPAN,53,60,all Ningxia assemblies

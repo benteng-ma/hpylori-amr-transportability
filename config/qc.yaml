@@ -1,0 +1,22 @@
+phase0_smoke_test:
+  maximum_assemblies_per_dataset: 3
+  no_complete_fastq_download: true
+assembly:
+  minimum_completeness_percent: 90
+  maximum_contamination_percent: 10
+  expected_genome_size_bp: [1400000, 1900000]
+  maximum_contig_count_primary: 300
+target_gene:
+  require_target_spanning_alignment: true
+  minimum_identity: 0.90
+raw_read:
+  minimum_depth: 10
+  minimum_base_quality: 20
+  minimum_mapping_quality: 20
+  major_allele_fraction_min: 0.80
+  mixed_allele_fraction: [0.20, 0.80]
+near_clone:
+  definition_status: FROZEN_2026-08-30
+  skani_ani_percent_min: 99.9
+  aligned_fraction_each_min: 0.90
+  mash_distance_max: 0.001

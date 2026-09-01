@@ -1,0 +1,3 @@
+outcome,n,median_lower_bound_mic_mg_L,q1_lower_bound_mic_mg_L,q3_lower_bound_mic_mg_L,right_censored_n
+TP,12,32.0,14.0,32.0,7
+FN,16,16.0,3.5,32.0,6

@@ -1,0 +1,38 @@
+{
+  "decision": "CONDITIONAL_GO_CLR_LVX_BINARY",
+  "decision_date": "2026-08-30",
+  "search_cutoff": "2026-08-30",
+  "eligible_public_cohorts": {
+    "HPGP_GLOBAL": 414,
+    "CHINA_NINGXIA_2022": 60,
+    "ZENODO_10369064": 52
+  },
+  "primary_external_cohort": "CHINA_NINGXIA_2022",
+  "secondary_external_cohort": "ZENODO_10369064",
+  "primary_drugs": ["clarithromycin", "levofloxacin"],
+  "go_reasons": [
+    "No exact duplicate benchmark was identified by the prespecified conjunction gate.",
+    "Two independent external cohorts have exact public sequence-to-phenotype linkage.",
+    "One external cohort has exact MIC data and the other has exact categorical labels plus raw reads.",
+    "Published 23S/gyrA rules and their numbering can be reproduced in representative genomes."
+  ],
+  "conditions": [
+    "Use Ningxia as the primary external cohort and Zenodo 10369064 only as a secondary phenotype-method stress test.",
+    "Restrict primary claims to clarithromycin and levofloxacin.",
+    "Do not treat continuous MIC-gradient analysis as a complete multi-cohort endpoint; it is limited to cohorts with public MIC.",
+    "Complete full-cohort sequence, duplicate, lineage, and QC audits before inspecting final performance.",
+    "Do not use US Mayo, Linqu, Israel, Swiss, Eastern China, or China landscape datasets for performance without an exact public phenotype crosswalk.",
+    "Do not make strong non-Chinese geographic transportability claims without another linkable external region."
+  ],
+  "phase1_unlocked": [
+    "complete sequence acquisition for the three eligible cohorts",
+    "prespecified QC and marker calling",
+    "full overlap and lineage assignment",
+    "frozen leave-study-out benchmark"
+  ],
+  "still_locked": [
+    "performance-driven rule or breakpoint selection",
+    "final Results writing before all frozen analyses are complete",
+    "causal or universal geographic claims"
+  ]
+}

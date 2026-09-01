@@ -1,0 +1,19 @@
+datasets:
+  - dataset_id: HPGP_PRJNA529500
+    accession: PRJNA529500
+    planned_role: PUBLISHED_CATALOGUE_AND_GLOBAL_INTERNAL_COHORT
+  - dataset_id: US_PRJNA1242368
+    accession: PRJNA1242368
+    planned_role: INELIGIBLE_UNTIL_ISOLATE_LEVEL_PHENOTYPE_LINKAGE_EXISTS
+  - dataset_id: LINQU_ZENODO14560813
+    accession: 10.5281/zenodo.14560813
+    planned_role: SEQUENCE_ONLY_LINEAGE_STRESS_RESOURCE
+  - dataset_id: ISRAEL_PRJEB37854
+    accession: PRJEB37854
+    planned_role: INELIGIBLE_REPOSITORY_CURRENTLY_EMPTY
+  - dataset_id: CHINA_PRJNA745492
+    accession: PRJNA745492
+    planned_role: PRIMARY_MIC_EXTERNAL_COHORT
+  - dataset_id: ZENODO_10369064
+    accession: 10.5281/zenodo.10369064
+    planned_role: SECONDARY_CATEGORICAL_EXTERNAL_COHORT

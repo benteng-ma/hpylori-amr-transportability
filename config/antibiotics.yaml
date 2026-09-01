@@ -1,0 +1,15 @@
+primary:
+  - clarithromycin
+  - levofloxacin
+secondary_if_feasible:
+  - amoxicillin
+  - metronidazole
+  - rifampicin
+  - tetracycline
+aliases:
+  clarithromycin: [CLR, CLA, CH]
+  levofloxacin: [LVX, LEV, LE]
+  amoxicillin: [AMX, AC]
+  metronidazole: [MTZ, MZ]
+  rifampicin: [RIF, RFP, RI, rifamycin]
+  tetracycline: [TET, TC]

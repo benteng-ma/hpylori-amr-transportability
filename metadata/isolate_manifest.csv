@@ -1,0 +1,532 @@
+dataset_id,isolate_id,patient_id,sample_id,run_id,assembly_id,country,site,collection_year,clinical_diagnosis,primary_or_post_treatment,lineage_reported,lineage_recomputed,near_clone_group,included,exclusion_reason,notes
+HPGP_GLOBAL,ALG-001,,SAMN19959869,,GCA_034693425.1,ALG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ALG-002,,SAMN19959870,,GCA_034692205.1,ALG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ALG-003,,SAMN19959871,,GCA_034691725.1,ALG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ALG-004,,SAMN19959872,,GCA_034692485.1,ALG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ALG-005,,SAMN19959873,,GCA_034691625.1,ALG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ALG-007,,SAMN19959875,,GCA_034690485.1,ALG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ALG-008,,SAMN19959876,,GCA_034689985.1,ALG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ALG-009,,SAMN19959877,,GCA_034689205.1,ALG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ALG-010,,SAMN19959878,,GCA_034688185.1,ALG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ARG-001,,SAMN19959879,,GCA_034687045.1,ARG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ARG-002,,SAMN18038692,,GCA_034697585.1,ARG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ARG-003,,SAMN19959880,,GCA_034686345.1,ARG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ARG-004,,SAMN19959881,,GCA_034685685.1,ARG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ARG-005,,SAMN19959882,,GCA_034685225.1,ARG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ARG-006,,SAMN19959883,,GCA_034684225.1,ARG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ARG-007,,SAMN19959884,,GCA_034683685.1,ARG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ARG-008,,SAMN19959885,,GCA_034682435.1,ARG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ARG-009,,SAMN19959886,,GCA_034783535.1,ARG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ARG-010,,SAMN19959887,,GCA_034781135.1,ARG,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-002,,SAMN19959907,,GCA_034760955.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-006,,SAMN19959911,,GCA_034757175.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-009,,SAMN19959914,,GCA_034753475.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-010,,SAMN19959915,,GCA_034753215.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-013,,SAMN19959917,,GCA_034749875.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-014,,SAMN19959918,,GCA_034752235.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-017,,SAMN19959920,,GCA_034748115.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-018,,SAMN19959921,,GCA_034747315.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-020,,SAMN19959923,,GCA_034745675.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-022,,SAMN19959924,,GCA_034745655.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-023,,SAMN19959925,,GCA_034745635.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,BRA-025,,SAMN19959926,,GCA_034745615.1,BRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-001,,SAMN11280799,,GCA_034809505.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-002,,SAMN11280803,,GCA_034809485.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-004,,SAMN11288411,,GCA_034809465.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-005,,SAMN11288412,,GCA_034809445.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-007,,SAMN11288431,,GCA_034809405.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-008,,SAMN11288432,,GCA_034809385.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-010,,SAMN11784160,,GCA_034701225.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-011,,SAMN11288467,,GCA_034809365.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-014,,SAMN12232456,,GCA_034809045.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-017,,SAMN11288478,,GCA_034806865.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-018,,SAMN11288479,,GCA_034806065.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-021,,SAMN11288498,,GCA_034805205.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-022,,SAMN19959947,,GCA_034672865.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-023,,SAMN11288627,,GCA_034804365.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-024,,SAMN11300436,,GCA_034803245.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-101,,SAMN19959948,,GCA_034672285.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-102,,SAMN11300439,,GCA_034799185.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-103,,SAMN19959949,,GCA_034671845.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-104,,SAMN11301504,,GCA_034798345.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-106,,SAMN11301505,,GCA_034796585.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-107,,SAMN11301506,,GCA_034795745.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-113,,SAMN11301507,,GCA_034795005.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-114,,SAMN12232482,,GCA_034793895.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-119,,SAMN11301509,,GCA_034790615.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-122,,SAMN11302278,,GCA_034788905.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-123,,SAMN11301510,,GCA_034788045.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-124,,SAMN11301511,,GCA_034787205.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-125,,SAMN11302344,,GCA_034786385.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-126,,SAMN11301512,,GCA_034785555.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHI-127,,SAMN11301513,,GCA_034784515.1,CHI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHN-001,,SAMN19959956,,GCA_034717015.1,CHN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHN-002,,SAMN19959957,,GCA_034715615.1,CHN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHN-004,,SAMN19959959,,GCA_034713495.1,CHN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHN-005,,SAMN19959960,,GCA_034712515.1,CHN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHN-009,,SAMN19959964,,GCA_034709195.1,CHN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CHN-010,,SAMN19959965,,GCA_034707895.1,CHN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,COL-003,,SAMN19959978,,GCA_034858015.1,COL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,COL-005,,SAMN19959980,,GCA_034857625.1,COL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,COL-006,,SAMN19959981,,GCA_034857605.1,COL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,COL-008,,SAMN19959982,,GCA_034857585.1,COL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CRI-001,,SAMN19960024,,GCA_034809765.1,CRI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CRI-002,,SAMN19960025,,GCA_034809745.1,CRI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CRI-004,,SAMN19960027,,GCA_034809705.1,CRI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CRI-005,,SAMN19960028,,GCA_034809685.1,CRI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,CRI-006,,SAMN19960029,,GCA_034809665.1,CRI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-001,,SAMN12231008,,GCA_035186245.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-002,,SAMN12231181,,GCA_035185585.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-003,,SAMN19960043,,GCA_035182685.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-004,,SAMN12231245,,GCA_035183845.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-005,,SAMN12231246,,GCA_035185565.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-006,,SAMN12231270,,GCA_035185545.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-007,,SAMN12231316,,GCA_035185525.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-008,,SAMN12231392,,GCA_035185505.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-009,,SAMN12231431,,GCA_035185485.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-010,,SAMN12231477,,GCA_035185465.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-011,,SAMN12231560,,GCA_035185445.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-012,,SAMN12231564,,GCA_035185425.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-013,,SAMN12231599,,GCA_035185405.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-014,,SAMN12231660,,GCA_035185385.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-015,,SAMN12231782,,GCA_035183905.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-016,,SAMN12231838,,GCA_035185365.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-017,,SAMN12231934,,GCA_035185345.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-018,,SAMN19960044,,GCA_035182665.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-019,,SAMN12231979,,GCA_035184985.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-020,,SAMN12232030,,GCA_035184965.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,FRA-021,,SAMN19960045,,GCA_035182645.1,FRA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GER-004,,SAMN19960049,,GCA_035182565.1,GER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GER-005,,SAMN19960050,,GCA_035182545.1,GER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GER-006,,SAMN19960051,,GCA_035182525.1,GER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GER-010,,SAMN19960054,,GCA_035182465.1,GER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GER-012,,SAMN19960055,,GCA_035182445.1,GER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GER-013,,SAMN19960056,,GCA_035182425.1,GER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GER-015,,SAMN19960057,,GCA_035182405.1,GER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GER-018,,SAMN19960059,,GCA_035182365.1,GER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GER-019,,SAMN19960060,,GCA_035182345.1,GER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GER-021,,SAMN19960062,,GCA_035182305.1,GER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GMB-004,,SAMN19960066,,GCA_035182225.1,GMB,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GMB-007,,SAMN19960067,,GCA_035182205.1,GMB,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GMB-008,,SAMN19960068,,GCA_035182185.1,GMB,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GMB-009,,SAMN19960069,,GCA_035182165.1,GMB,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GRE-001,,SAMN11302841,,GCA_035184945.1,GRE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GRE-003,,SAMN11302843,,GCA_035184905.1,GRE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GRE-004,,SAMN11302996,,GCA_035184885.1,GRE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GRE-008,,SAMN11302845,,GCA_035183865.1,GRE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GRE-012,,SAMN11303038,,GCA_035184805.1,GRE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GRE-019,,SAMN11302846,,GCA_035184785.1,GRE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GRE-020,,SAMN11303125,,GCA_035184725.1,GRE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GRE-041,,SAMN19960074,,GCA_035182065.1,GRE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GRE-044,,SAMN19960077,,GCA_035182005.1,GRE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GRE-046,,SAMN19960078,,GCA_035181985.1,GRE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GTM-004,,SAMN19999412,,GCA_035183885.1,GTM,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,GTM-010,,SAMN19960080,,GCA_035181945.1,GTM,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-003,,SAMN11305542,,GCA_035184645.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-004,,SAMN11305543,,GCA_035184625.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-005,,SAMN11307875,,GCA_035184605.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-006,,SAMN11305544,,GCA_035184585.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-007,,SAMN11305545,,GCA_035184565.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-009,,SAMN11305546,,GCA_035184545.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-015,,SAMN11305549,,GCA_035184425.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-017,,SAMN11305550,,GCA_035184385.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-018,,SAMN11305551,,GCA_035184365.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-019,,SAMN11305552,,GCA_035184345.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-020,,SAMN11305553,,GCA_035184325.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-021,,SAMN11305554,,GCA_035184305.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-024,,SAMN11305555,,GCA_035184265.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-025,,SAMN11308269,,GCA_035184245.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,HON-027,,SAMN11305674,,GCA_035184185.1,HON,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,IND-005,,SAMN19960096,,GCA_035181625.1,IND,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,IND-006,,SAMN19960097,,GCA_035181605.1,IND,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,IND-007,,SAMN19960098,,GCA_035181585.1,IND,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,IND-008,,SAMN19960099,,GCA_035181565.1,IND,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,IND-009,,SAMN19960100,,GCA_035181545.1,IND,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISL-002,,SAMN19960107,,GCA_035177945.1,ISL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISL-004,,SAMN19960109,,GCA_035174605.1,ISL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISL-005,,SAMN19960110,,GCA_035172865.1,ISL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISL-007,,SAMN19960112,,GCA_035169165.1,ISL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISL-009,,SAMN19960114,,GCA_035165265.1,ISL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISR-002,,SAMN19960118,,GCA_035157605.1,ISR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISR-003,,,,,ISR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,no,no exact assembly-name link,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISR-004,,SAMN19960120,,GCA_035156865.1,ISR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISR-006,,SAMN19960122,,GCA_035156625.1,ISR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISR-007,,,,,ISR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,no,no exact assembly-name link,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISR-008,,,,,ISR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,no,no exact assembly-name link,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISR-009,,,,,ISR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,no,no exact assembly-name link,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ISR-010,,,,,ISR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,no,no exact assembly-name link,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-002,,SAMN12232220,,GCA_035184125.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-003,,SAMN12232221,,GCA_035184105.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-004,,SAMN12232222,,GCA_035184085.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-006,,SAMN12232270,,GCA_035184045.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-007,,SAMN12232277,,GCA_035184025.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-008,,SAMN12232279,,GCA_035184005.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-009,,SAMN12232280,,GCA_035183985.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-011,,SAMN12232282,,GCA_035183945.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-012,,SAMN12232283,,GCA_035183925.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-013,,SAMN12232284,,GCA_035183825.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-015,,SAMN12232296,,GCA_035183785.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-016,,SAMN12232303,,GCA_035183765.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-022,,SAMN12232349,,GCA_035183665.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-026,,SAMN12232354,,GCA_035183605.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-027,,SAMN12232359,,GCA_035183565.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-028,,SAMN12232360,,GCA_035183545.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ITA-030,,SAMN12275542,,GCA_035183505.1,ITA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JAP-002,,SAMN11308805,,GCA_035183485.1,JAP,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JAP-009,,SAMN11308806,,GCA_035183465.1,JAP,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JAP-010,,SAMN11308807,,GCA_035183445.1,JAP,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JAP-012,,SAMN11308808,,GCA_035183425.1,JAP,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JAP-013,,SAMN11309248,,GCA_035183405.1,JAP,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JAP-015,,SAMN11308809,,GCA_035183385.1,JAP,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JAP-019,,SAMN11308928,,GCA_035183325.1,JAP,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JAP-022,,SAMN11309113,,GCA_035183285.1,JAP,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JAP-028,,SAMN11308812,,GCA_035183245.1,JAP,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JOR-004,,SAMN19960145,,GCA_035086145.1,JOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JOR-005,,SAMN19960146,,GCA_035084655.1,JOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JOR-006,,SAMN19960147,,GCA_035083625.1,JOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JOR-007,,SAMN19960148,,GCA_035081865.1,JOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,JOR-009,,SAMN19960150,,GCA_035080205.1,JOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KAZ-001,,SAMN19960152,,GCA_035079215.1,KAZ,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KGZ-001,,SAMN19960154,,GCA_035077345.1,KGZ,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KGZ-004,,SAMN19960157,,GCA_035074525.1,KGZ,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KGZ-009,,SAMN19960162,,GCA_035070845.1,KGZ,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KGZ-010,,SAMN19960163,,GCA_035069945.1,KGZ,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-002,,SAMN11309775,,GCA_035183185.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-007,,SAMN11309840,,GCA_035183105.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-008,,SAMN11309837,,GCA_035183085.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-010,,SAMN11309895,,GCA_035183045.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-013,,SAMN19960164,,GCA_035069125.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-014,,SAMN19960165,,GCA_035068325.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-019,,SAMN19960167,,GCA_035067645.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-022,,SAMN19960170,,GCA_035067585.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-027,,SAMN19960174,,GCA_035067505.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-028,,SAMN19960175,,GCA_035067485.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-036,,SAMN11309779,,GCA_035182925.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-041,,SAMN11309780,,GCA_035182885.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-042,,SAMN11309781,,GCA_035182865.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-044,,SAMN11309842,,GCA_035154245.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-046,,SAMN11309839,,GCA_035152275.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-047,,SAMN11309836,,GCA_035151455.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-049,,SAMN11309810,,GCA_035149765.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-050,,SAMN11309853,,GCA_035148425.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-101,,SAMN11309785,,GCA_035147585.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-105,,SAMN11309786,,GCA_035146795.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-109,,SAMN11309808,,GCA_035145775.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-110,,SAMN11309787,,GCA_035144775.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,KOR-116,,SAMN19960185,,GCA_035061705.1,KOR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-002,,SAMN11316868,,GCA_035143715.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-003,,SAMN11316682,,GCA_035064585.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-009,,SAMN11316687,,GCA_035139465.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-014,,SAMN11317210,,GCA_035136325.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-015,,SAMN11316691,,GCA_035135185.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-017,,SAMN11316692,,GCA_035133835.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-018,,SAMN11316693,,GCA_035064145.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-019,,SAMN11316694,,GCA_035133235.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-021,,SAMN11316866,,GCA_035131815.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-023,,SAMN11316867,,GCA_035130095.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-024,,SAMN11316824,,GCA_035128965.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-026,,SAMN11316696,,GCA_035126575.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-027,,SAMN11316697,,GCA_035125245.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LAT-029,,SAMN11316851,,GCA_035123255.1,LAT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-001,,SAMN11317312,,GCA_035121615.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-003,,SAMN11317482,,GCA_035119535.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-006,,SAMN11317314,,GCA_035117915.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-008,,SAMN11317316,,GCA_035117875.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-010,,SAMN11317341,,GCA_035117855.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-013,,SAMN11317318,,GCA_035117815.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-020,,SAMN11317332,,GCA_035117795.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-021,,SAMN19990351,,GCA_035054865.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-025,,SAMN11317320,,GCA_035117615.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-028,,SAMN19990353,,GCA_035053025.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-032,,SAMN19990355,,GCA_035051445.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,LIT-041,,SAMN19990356,,GCA_035050625.1,LIT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MAL-003,,SAMN11317543,,GCA_035117155.1,MAL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MAL-005,,SAMN11317495,,GCA_035117085.1,MAL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MAL-006,,SAMN11317496,,GCA_035117065.1,MAL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MAL-007,,SAMN11317497,,GCA_035117045.1,MAL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MAL-012,,SAMN11317499,,GCA_035115545.1,MAL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MAL-018,,SAMN11317502,,GCA_035112185.1,MAL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MAL-019,,SAMN11317526,,GCA_035111225.1,MAL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MAL-021,,SAMN11317504,,GCA_035109285.1,MAL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MAL-023,,SAMN11317505,,GCA_035108005.1,MAL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-001,,SAMN11317599,,GCA_035106305.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-002,,SAMN11317600,,GCA_035105485.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-003,,SAMN11317601,,GCA_035104665.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-004,,SAMN11318410,,GCA_035104495.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-007,,SAMN11318487,,GCA_035103015.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-008,,SAMN11317603,,GCA_035102095.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-009,,SAMN11317604,,GCA_035101275.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-012,,SAMN11318482,,GCA_035099675.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-023,,SAMN11317606,,GCA_035099075.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-024,,SAMN11317607,,GCA_035098295.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-027,,SAMN11318495,,GCA_035097795.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-028,,SAMN11318496,,GCA_035097095.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-032,,SAMN11317608,,GCA_035096475.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-035,,SAMN11317609,,GCA_035095755.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-040,,SAMN11318486,,GCA_035094615.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-041,,SAMN11317610,,GCA_035093675.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-043,,SAMN11318494,,GCA_035093545.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,MEX-046,,SAMN19990358,,GCA_035048555.1,MEX,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,NGA-010,,SAMN19990372,,GCA_035033625.1,NGA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,NGA-019,,SAMN19990374,,GCA_035031985.1,NGA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-013,,SAMN11318540,,GCA_035063425.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-017,,SAMN11318556,,GCA_035063365.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-018,,SAMN11318543,,GCA_035063345.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-020,,SAMN11318545,,GCA_035063305.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-101,,SAMN19990388,,GCA_035017585.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-103,,SAMN19990390,,GCA_035014105.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-104,,SAMN19990391,,GCA_035012125.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-107,,SAMN19990394,,GCA_035006465.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-112,,SAMN19990399,,GCA_034993505.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-116,,SAMN19990403,,GCA_034986765.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-117,,SAMN19990404,,GCA_034985765.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-124,,SAMN19990407,,GCA_034982865.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-138,,SAMN19990410,,GCA_034980485.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PER-140,,SAMN19990411,,GCA_034979705.1,PER,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-004,,SAMN19990415,,GCA_034976125.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-005,,SAMN19990416,,GCA_034975265.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-006,,SAMN19990417,,GCA_034974505.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-007,,SAMN19990418,,GCA_034973925.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-008,,SAMN19990419,,GCA_034972885.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-009,,SAMN19990420,,GCA_034972065.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-010,,SAMN19990421,,GCA_034971265.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-104,,SAMN19990425,,GCA_034967625.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-105,,SAMN19990426,,GCA_034966285.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-106,,SAMN19990427,,GCA_034965425.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-108,,SAMN19990429,,GCA_034963805.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POL-110,,SAMN19990431,,GCA_034962325.1,POL,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-002,,SAMN11658994,,GCA_035063245.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-003,,SAMN11659058,,GCA_035063225.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-004,,SAMN11659085,,GCA_035063205.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-005,,SAMN11659177,,GCA_035063185.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-010,,SAMN11659438,,GCA_035062845.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-018,,SAMN11659836,,GCA_035062105.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-104,,SAMN19990435,,GCA_034961025.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-105,,SAMN19990436,,GCA_034960305.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-106,,SAMN19990437,,GCA_034959325.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-107,,SAMN19990438,,GCA_034958265.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-109,,SAMN19990440,,GCA_034956305.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-112,,SAMN19990443,,GCA_034953905.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-113,,SAMN19990444,,GCA_034953145.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,POR-114,,SAMN19990445,,GCA_034952185.1,POR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PRI-001,,SAMN19990447,,GCA_034950785.1,PRI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PRI-002,,SAMN19990448,,GCA_034950175.1,PRI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PRI-004,,SAMN19990449,,GCA_034949605.1,PRI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PRI-005,,SAMN19990450,,GCA_034939645.1,PRI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,PRI-006,,SAMN19990451,,GCA_034939625.1,PRI,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,RUS-001,,SAMN19990455,,GCA_034908465.1,RUS,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,RUS-003,,SAMN19990457,,GCA_034906745.1,RUS,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,RUS-004,,SAMN19990458,,GCA_034905905.1,RUS,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,RUS-007,,SAMN19990460,,GCA_034903945.1,RUS,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,RUS-011,,SAMN19990464,,GCA_034866365.1,RUS,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-003,,SAMN11318767,,GCA_034926895.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-005,,SAMN11318738,,GCA_034924605.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-006,,SAMN11318799,,GCA_034923545.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-009,,SAMN11318740,,GCA_034920565.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-012,,SAMN11318743,,GCA_034917985.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-015,,SAMN11318746,,GCA_034915365.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-017,,SAMN11318813,,GCA_034913285.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-101,,SAMN19990486,,GCA_034860465.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-105,,SAMN19990490,,GCA_034860385.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-108,,SAMN19990492,,GCA_034860345.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-111,,SAMN19990494,,GCA_034860305.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-201,,SAMN19990495,,GCA_034860285.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-202,,SAMN19990496,,GCA_034860265.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-203,,SAMN19990497,,GCA_034860245.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-205,,SAMN19990499,,GCA_034860205.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-210,,SAMN19990503,,GCA_034860125.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-301,,SAMN19990504,,GCA_034860105.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-303,,SAMN19990506,,GCA_034860065.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-311,,SAMN19990514,,GCA_034859905.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-312,,SAMN19990515,,GCA_034859885.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-315,,SAMN19990518,,GCA_034859825.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-318,,SAMN19990521,,GCA_034859765.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-321,,SAMN19990524,,GCA_034859705.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-401,,SAMN19990529,,GCA_034859015.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-405,,SAMN19990533,,GCA_034858875.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-413,,SAMN19990537,,GCA_034858795.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-502,,SAMN19990540,,GCA_034858735.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-504,,SAMN19990542,,GCA_034858695.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-508,,SAMN19990546,,GCA_034858615.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-509,,SAMN19990547,,GCA_034858595.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-607,,SAMN19990552,,GCA_034858495.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-609,,SAMN19990553,,GCA_034858475.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-703,,SAMN19990558,,GCA_034858375.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-705,,SAMN19990560,,GCA_034858335.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-707,,SAMN19990562,,GCA_034858295.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-801,,SAMN19990565,,GCA_034856515.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-803,,SAMN19990567,,GCA_034856475.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-805,,SAMN19990569,,GCA_034856435.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SPA-806,,SAMN19990570,,GCA_034856415.1,SPA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWE-006,,SAMN11333216,,GCA_034897205.1,SWE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWE-008,,SAMN11334118,,GCA_034895665.1,SWE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWE-010,,SAMN11333217,,GCA_034895065.1,SWE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWE-015,,SAMN11333220,,GCA_034892165.1,SWE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWE-016,,SAMN11333221,,GCA_034891065.1,SWE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWE-026,,SAMN11333226,,GCA_034884265.1,SWE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWE-028,,SAMN11333228,,GCA_034882165.1,SWE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWE-031,,SAMN11333230,,GCA_034880085.1,SWE,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-001,,SAMN11659918,,GCA_034875585.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-002,,SAMN11659948,,GCA_034874685.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-004,,SAMN11660017,,GCA_034873765.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-005,,SAMN11660067,,GCA_034872705.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-006,,SAMN11660147,,GCA_034871625.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-008,,SAMN11660224,,GCA_034869635.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-010,,SAMN11660301,,GCA_034868825.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-011,,SAMN11660332,,GCA_034868145.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-012,,SAMN11660401,,GCA_034867325.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-013,,SAMN11660431,,GCA_034866505.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-014,,SAMN11660463,,GCA_034866485.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-015,,SAMN11660473,,GCA_034866465.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,SWT-017,,SAMN12276337,,GCA_034866445.1,SWT,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TUR-001,,SAMN19990573,,GCA_034856355.1,TUR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TUR-002,,SAMN19990574,,GCA_034939585.1,TUR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TUR-003,,SAMN19990575,,GCA_034939565.1,TUR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TUR-005,,SAMN19990577,,GCA_034939525.1,TUR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TUR-008,,SAMN19990580,,GCA_034939465.1,TUR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TUR-010,,SAMN19990582,,GCA_034939425.1,TUR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TUR-011,,SAMN19990583,,GCA_034939405.1,TUR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TUR-014,,SAMN19990586,,GCA_034938665.1,TUR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TUR-017,,SAMN19990588,,GCA_034936625.1,TUR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TUR-023,,SAMN19990591,,GCA_034933665.1,TUR,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TWN-001,,SAMN11334322,,GCA_034948945.1,TWN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TWN-004,,SAMN11334325,,GCA_034947145.1,TWN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TWN-005,,SAMN11334326,,GCA_034946665.1,TWN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TWN-006,,SAMN11334350,,GCA_034946145.1,TWN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TWN-007,,SAMN11334351,,GCA_034945485.1,TWN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TWN-008,,SAMN11334353,,GCA_034945065.1,TWN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TWN-009,,SAMN11334327,,GCA_034944505.1,TWN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TWN-020,,SAMN11334354,,GCA_034941525.1,TWN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TWN-022,,SAMN11334349,,GCA_034940425.1,TWN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,TWN-023,,SAMN11334333,,GCA_034939685.1,TWN,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-002,,SAMN19990598,,GCA_034856215.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-003,,SAMN19990599,,GCA_034856195.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-102,,SAMN19990606,,GCA_034856055.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-104,,SAMN19990607,,GCA_034856035.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-105,,SAMN19990608,,GCA_034856015.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-106,,SAMN19990609,,GCA_034855995.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-202,,SAMN19990616,,GCA_034855855.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-204,,SAMN19990618,,GCA_034855815.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-206,,SAMN19990620,,GCA_034855775.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-207,,SAMN19990621,,GCA_034855755.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-302,,SAMN19990624,,GCA_034855695.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-304,,SAMN19990626,,GCA_034855655.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-311,,SAMN19990629,,GCA_034855595.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-406,,SAMN19990635,,GCA_034850955.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,USA-414,,SAMN19990642,,GCA_034846875.1,USA,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ZAF-001,,SAMN19990672,,GCA_034827045.1,ZAF,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ZAF-002,,SAMN19990673,,GCA_034825975.1,ZAF,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ZAF-004,,SAMN19990674,,GCA_034825105.1,ZAF,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+HPGP_GLOBAL,ZAF-006,,SAMN19990675,,GCA_034824265.1,ZAF,,,,unknown,available in HpGP metadata,pending Phase 1,pending Phase 1,yes,,binary phenotype from frozen GitLab commit 4b2e5d00
+CHINA_NINGXIA_2022,SHZY01,,SAMN20180521,,GCA_021063165.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=3
+CHINA_NINGXIA_2022,SHZY02,,SAMN20180522,,GCA_021063185.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY03,,SAMN20180523,,GCA_021063205.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY04,,SAMN20180524,,GCA_021063145.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY05,,SAMN20180525,,GCA_021063065.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY06,,SAMN20180526,,GCA_021063045.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=2
+CHINA_NINGXIA_2022,SHZY07,,SAMN20180527,,GCA_021063075.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY08,,SAMN20180528,,GCA_021063105.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY09,,SAMN20180529,,GCA_021063005.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY10,,SAMN20180530,,GCA_021062955.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY11,,SAMN20180531,,GCA_021062825.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY12,,SAMN20180532,,GCA_021062895.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY13,,SAMN20180533,,GCA_021062925.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=2
+CHINA_NINGXIA_2022,SHZY14,,SAMN20180534,,GCA_021062885.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY15,,SAMN20180535,,GCA_021062785.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY16,,SAMN20180536,,GCA_021062665.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY17,,SAMN20180537,,GCA_021062695.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY18,,SAMN20180538,,GCA_021062715.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY19,,SAMN20180539,,GCA_021062735.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY20,,SAMN20180540,,GCA_021062685.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY21,,SAMN20180541,,GCA_021062645.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY22,,SAMN20180542,,GCA_021062625.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY23,,SAMN20180543,,GCA_021062605.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=2
+CHINA_NINGXIA_2022,SHZY24,,SAMN20180544,,GCA_021062585.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=2
+CHINA_NINGXIA_2022,SHZY25,,SAMN20180545,,GCA_021062565.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY26,,SAMN20180546,,GCA_021062545.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY27,,SAMN20180547,,GCA_021062525.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY28,,SAMN20180548,,GCA_021062485.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY29,,SAMN20180549,,GCA_021062435.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY30,,SAMN20180550,,GCA_021060485.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY31,,SAMN20180551,,GCA_021062495.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY32,,SAMN20180552,,GCA_021062425.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY33,,SAMN20180553,,GCA_021062305.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY34,,SAMN20180554,,GCA_021062335.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY35,,SAMN20180555,,GCA_021062375.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY36,,SAMN20180556,,GCA_021062265.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY37,,SAMN20180557,,GCA_021062245.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY38,,SAMN20180558,,GCA_021062135.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY39,,SAMN20180559,,GCA_021062165.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY40,,SAMN20180560,,GCA_021062125.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY41,,SAMN20180561,,GCA_021062105.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=5
+CHINA_NINGXIA_2022,SHZY42,,SAMN20180562,,GCA_021061965.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY43,,SAMN20180563,,GCA_021062005.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY44,,SAMN20180564,,GCA_021061945.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY45,,SAMN20180565,,GCA_021061975.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY46,,SAMN20180566,,GCA_021061905.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=3
+CHINA_NINGXIA_2022,SHZY47,,SAMN20180567,,GCA_021061915.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY48,,SAMN20180568,,GCA_021061845.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY49,,SAMN20180569,,GCA_021061875.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY50,,SAMN20180570,,GCA_021061865.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY51,,SAMN20180571,,GCA_021061825.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=0
+CHINA_NINGXIA_2022,SHZY52,,SAMN20180572,,GCA_021061765.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=2
+CHINA_NINGXIA_2022,SHZY53,,SAMN20180573,,GCA_021061745.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY54,,SAMN20180574,,GCA_021060345.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY55,,SAMN20180575,,GCA_021060405.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=2
+CHINA_NINGXIA_2022,SHZY56,,SAMN20180576,,GCA_021060385.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=2
+CHINA_NINGXIA_2022,SHZY57,,SAMN20180577,,GCA_021060365.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY58,,SAMN20180578,,GCA_021061785.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=2
+CHINA_NINGXIA_2022,SHZY59,,SAMN20180579,,GCA_021060425.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+CHINA_NINGXIA_2022,SHZY60,,SAMN20180580,,GCA_021061795.1,China,Ningxia,,,mixed; eradication history field retained,reported in publication,pending Phase 1,pending smoke test,yes,,eradication_history=1
+ZENODO_10369064,S01,S01,S01,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S03,S03,S03,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S04,S04,S04,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S05,S05,S05,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S06,S06,S06,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S07,S07,S07,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S08,S08,S08,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S09,S09,S09,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S10,S10,S10,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S11,S11,S11,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S12,S12,S12,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S13,S13,S13,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S14,S14,S14,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S15,S15,S15,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S16,S16,S16,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S17,S17,S17,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S18,S18,S18,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S19,S19,S19,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S20,S20,S20,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S21,S21,S21,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S23,S23,S23,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S24,S24,S24,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S25,S25,S25,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S26,S26,S26,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S27,S27,S27,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S28,S28,S28,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S29,S29,S29,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S30,S30,S30,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S31,S31,S31,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S32,S32,S32,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S33,S33,S33,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S34,S34,S34,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S35,S35,S35,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S36,S36,S36,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S37,S37,S37,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S39,S39,S39,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S41,S41,S41,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S42,S42,S42,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S43,S43,S43,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S45,S45,S45,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S46,S46,S46,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S47,S47,S47,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S48,S48,S48,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S49,S49,S49,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S50,S50,S50,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S52,S52,S52,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S54,S54,S54,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S55,S55,S55,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S56,S56,S56,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S57,S57,S57,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S58,S58,S58,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP
+ZENODO_10369064,S64,S64,S64,,,China,multicentre,,,unknown,study phylogeny only,pending Phase 1,pending smoke test,yes,,raw paired-end reads in per-isolate ZIP

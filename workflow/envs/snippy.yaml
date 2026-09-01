@@ -1,0 +1,8 @@
+name: hpylori-snippy
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - snippy=4.6.0
+  - samtools>=1.17
+

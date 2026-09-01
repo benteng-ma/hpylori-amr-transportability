@@ -1,0 +1,4 @@
+06080a508a63370daa57ac3390ab81034ae17325de37d16e76bad4fe1b67a165  environment.yml
+49dcc9c3b2414f184b900a538b02b0d32468a9298643a71c7dcfe51af052de89  workflow/envs/environment-linux-64.lock.txt
+878f572b2b87068a064fbdf254131f001ba82d281a97fe467200f64c1d8c5205  workflow/envs/environment-resolved.yml
+b3b5da1718d6f41f7c2838f72fb9bdb6064a68b232ae83d3d0bf05e1f6d4eb9c  workflow/envs/snippy.yaml

@@ -1,0 +1,9 @@
+dataset_id_a,dataset_id_b,shared_isolate_ids,shared_biosamples,shared_runs,shared_assemblies,sequence_similarity_screened,near_identical_pairs,overlap_class,evidence,verified
+HPGP_GLOBAL,CHINA_NINGXIA_2022,0,0,0,0,"representative 3x3 Mash+skani",0,no_overlap_detected,"distinct BioProjects and zero exact IDs/accessions; 9 representative cross-cohort pairs all below near-clone threshold",partial
+HPGP_GLOBAL,LINQU_2025,0,unknown,unknown,0,"representative 3x3 Mash+skani",0,no_overlap_detected,"distinct repositories and zero exact assembly identifiers; 9 representative cross-cohort pairs all below near-clone threshold",partial
+CHINA_NINGXIA_2022,LINQU_2025,0,unknown,unknown,0,"representative 3x3 Mash+skani",0,no_overlap_detected,"distinct repositories and isolate-name schemes; 9 representative cross-cohort pairs all below near-clone threshold",partial
+HPGP_GLOBAL,ZENODO_10369064,0,unknown,unknown,0,no,unknown,no_exact_identifier_overlap,"distinct phenotype IDs and repositories; full sequence-level comparison deferred to Phase 1",partial
+CHINA_NINGXIA_2022,ZENODO_10369064,0,unknown,unknown,0,no,unknown,no_exact_identifier_overlap,"SHZY versus S identifiers; full sequence-level comparison deferred to Phase 1",partial
+HPGP_GLOBAL,US_MAYO_2025,0,0,0,0,no,unknown,no_exact_accession_overlap,"NCBI assembly accession intersection is zero; phenotype linkage unavailable for US cohort",yes
+HPGP_GLOBAL,ML296_2025,unknown,unknown,unknown,unknown,no,unknown,unresolved_secondary_source_overlap,"ML296 is a compiled database with genome IDs requiring source resolution",no
+CHINA_NINGXIA_2022,ML296_2025,unknown,unknown,unknown,unknown,no,unknown,unresolved_secondary_source_overlap,"ML296 source provenance must be resolved before any independence claim",no

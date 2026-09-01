@@ -1,0 +1,4 @@
+dataset_id,phenotype_rows,sequence_rows,exact_id_links,mapping_status
+HPGP_GLOBAL,419,1017,414,PARTIAL
+CHINA_NINGXIA_2022,60,60,60,PASS
+ZENODO_10369064,52,52,52,PASS

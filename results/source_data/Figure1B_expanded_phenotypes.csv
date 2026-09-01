@@ -1,0 +1,15 @@
+dataset_id,antibiotic,susceptibility_original,n
+CHINA_NINGXIA_2022,clarithromycin,R,31
+CHINA_NINGXIA_2022,clarithromycin,S,29
+CHINA_NINGXIA_2022,levofloxacin,R,29
+CHINA_NINGXIA_2022,levofloxacin,S,31
+HPGP_GLOBAL,clarithromycin,R,113
+HPGP_GLOBAL,clarithromycin,S,306
+HPGP_GLOBAL,levofloxacin,R,134
+HPGP_GLOBAL,levofloxacin,S,285
+ZENODO_10369064,clarithromycin,I,2
+ZENODO_10369064,clarithromycin,R,23
+ZENODO_10369064,clarithromycin,S,27
+ZENODO_10369064,levofloxacin,I,4
+ZENODO_10369064,levofloxacin,R,20
+ZENODO_10369064,levofloxacin,S,28

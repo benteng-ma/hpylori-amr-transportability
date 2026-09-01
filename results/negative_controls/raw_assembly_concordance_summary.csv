@@ -1,0 +1,3 @@
+dataset_id,antibiotic,n,n_raw_callable,n_support_assembly_callable,n_both_callable,n_concordant,n_discordant,concordance_when_both_callable
+ZENODO_10369064,clarithromycin,52,52,44,44,44,0,1.0
+ZENODO_10369064,levofloxacin,52,45,45,41,41,0,1.0

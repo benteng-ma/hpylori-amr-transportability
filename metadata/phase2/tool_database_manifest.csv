@@ -1,0 +1,2 @@
+tool,database,version,record_id,doi,source_url,archive_path,archive_bytes,archive_md5,archive_sha256,database_path,database_bytes,compatibility,verified
+CheckM2,CM2 Reference Database Uniref100/KO,3,14897628,10.5281/zenodo.14897628,https://zenodo.org/api/records/14897628/files/checkm2_database.tar.gz/content,data/raw/checkm2_db/checkm2_database.tar.gz,1735095710,07c10655620843b517d0df0c160d911f,611a250b8876fb66247f6378e6eb46b5bdcee7eed8866ad7e4d63571e53920d6,data/raw/checkm2_db/CheckM2_database/uniref100.KO.1.dmnd,3082500605,"CheckM2 1.1.0; DIAMOND 2.1.11",yes

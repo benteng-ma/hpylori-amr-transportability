@@ -1,0 +1,6 @@
+name: hpylori-assembly
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - skesa=2.5.1

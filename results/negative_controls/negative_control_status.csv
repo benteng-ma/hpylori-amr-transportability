@@ -1,0 +1,17 @@
+control_id,control,status,output,reason
+1,random_vs_leave_study_out,COMPUTED_ELSEWHERE,leakage_benchmark_summary.csv,random HpGP splits versus HpGP-to-external tests
+2,random_vs_leave_lineage_out,COMPUTED_ELSEWHERE,leakage_benchmark_summary.csv,same frozen-feature models
+3,exclude_near_clones,COMPUTED,clone_thinned_panel_metrics.csv,lexicographic first isolate per connected component
+4,one_isolate_per_patient,NOT_ESTIMABLE,,public patient identifiers unavailable
+5,raw_read_supported_only,COMPUTED_ELSEWHERE,phenotype_sensitivity_metrics.csv,Zenodo raw-read predictions authoritative
+6,assembly_supported_only,COMPUTED_ELSEWHERE,phenotype_sensitivity_metrics.csv,HpGP and Ningxia assembly predictions; Zenodo support assembly separate
+7,alternative_breakpoint_interpretation,COMPUTED_ELSEWHERE,phenotype_sensitivity_metrics.csv,original and recomputed Ningxia labels with I sensitivities
+8,exclude_borderline_MIC,COMPUTED_ELSEWHERE,phenotype_sensitivity_metrics.csv,prespecified borderline flag
+9,AST_method_strata,COMPUTED_ELSEWHERE,phenotype_sensitivity_metrics.csv,method-specific descriptive estimates
+10,unified_laboratory_AST,COMPUTED_ELSEWHERE,frozen_panel_metrics.csv,cohort-specific estimates preserve laboratory/study separation
+11,high_quality_genomes_only,COMPUTED_ELSEWHERE,phenotype_sensitivity_metrics.csv,frozen complete genome-QC pass
+12,country_strata,COMPUTED_ELSEWHERE,frozen_panel_metrics.csv,country-specific descriptive estimates
+13,lineage_strata,COMPUTED_ELSEWHERE,frozen_panel_metrics.csv,predeclared estimability gate plus descriptive sensitivity table
+14,lineage_only_model,COMPUTED_ELSEWHERE,leakage_benchmark_summary.csv,prespecified negative-control model
+15,random_core_SNP_panels_100,COMPUTED,random_snp_panel_metrics.csv,HpGP sequence frequency matching without phenotype selection
+16,training_label_permutation_100,COMPUTED,label_permutation_metrics.csv,HpGP training labels only

@@ -1,0 +1,47 @@
+name: hpylori-amr-transportability
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - pip
+  - pandas
+  - pyarrow
+  - openpyxl
+  - python-docx
+  - pypdf
+  - pdfplumber
+  - pyyaml
+  - requests
+  - biopython
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - intervaltree
+  - pytest
+  - snakemake-minimal
+  - ncbi-datasets-cli
+  - entrez-direct
+  - seqkit
+  - blast
+  - samtools>=1.20
+  - bcftools>=1.20
+  - minimap2
+  - bwa
+  - fastp
+  - fastqc
+  - mash>=2.3
+  - skani
+  - skesa
+  - iqtree
+  - r-base=4.4
+  - r-renv
+  - r-targets
+  - r-data.table
+  - r-yaml
+  - r-jsonlite
+  - r-testthat
+  - r-pROC
+  - r-yardstick
+  - r-ggplot2
+  - r-quarto

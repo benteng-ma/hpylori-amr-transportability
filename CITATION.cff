@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release and associated article when available."
+title: "External validation of genomic resistance prediction in Helicobacter pylori across independent cohorts"
+type: software
+version: 0.4.0-mgen-rc2
+date-released: 2026-09-01
+license: MIT
+abstract: "Lineage-aware external validation of published Helicobacter pylori genomic antimicrobial-resistance predictors."
+authors:
+  - family-names: Ma
+    given-names: Benteng
+    orcid: "https://orcid.org/0000-0001-8795-7291"
+  - family-names: Chen
+    given-names: Bing
+    orcid: "https://orcid.org/0000-0001-8828-9678"
+  - family-names: Cai
+    given-names: Ting
+    orcid: "https://orcid.org/0000-0002-8910-3289"
+  - family-names: Liu
+    given-names: Xiao-ming
+  - family-names: Wang
+    given-names: Fen

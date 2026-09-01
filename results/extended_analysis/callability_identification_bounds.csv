@@ -1,0 +1,19 @@
+dataset_id,antibiotic,metric,evaluable_estimate,logical_lower_bound,logical_upper_bound,phenotype_linked_denominator,resolved_n,unresolved_n,bound_definition
+HPGP_GLOBAL,clarithromycin,sensitivity,1.0,1.0,1.0,108,108,0,unresolved isolates assigned to the least or most favourable compatible prediction
+HPGP_GLOBAL,clarithromycin,specificity,1.0,1.0,1.0,306,306,0,unresolved isolates assigned to the least or most favourable compatible prediction
+HPGP_GLOBAL,clarithromycin,balanced_accuracy,1.0,1.0,1.0,414,414,0,unresolved isolates assigned to the least or most favourable compatible prediction
+HPGP_GLOBAL,levofloxacin,sensitivity,0.9849624060150376,0.9849624060150376,0.9849624060150376,133,133,0,unresolved isolates assigned to the least or most favourable compatible prediction
+HPGP_GLOBAL,levofloxacin,specificity,1.0,1.0,1.0,281,281,0,unresolved isolates assigned to the least or most favourable compatible prediction
+HPGP_GLOBAL,levofloxacin,balanced_accuracy,0.9924812030075187,0.9924812030075187,0.9924812030075187,414,414,0,unresolved isolates assigned to the least or most favourable compatible prediction
+CHINA_NINGXIA_2022,clarithromycin,sensitivity,1.0,0.06451612903225806,1.0,31,2,29,unresolved isolates assigned to the least or most favourable compatible prediction
+CHINA_NINGXIA_2022,clarithromycin,specificity,1.0,0.13793103448275862,1.0,29,4,25,unresolved isolates assigned to the least or most favourable compatible prediction
+CHINA_NINGXIA_2022,clarithromycin,balanced_accuracy,1.0,0.10122358175750834,1.0,60,6,54,unresolved isolates assigned to the least or most favourable compatible prediction
+CHINA_NINGXIA_2022,levofloxacin,sensitivity,0.42857142857142855,0.41379310344827586,0.4482758620689655,29,28,1,unresolved isolates assigned to the least or most favourable compatible prediction
+CHINA_NINGXIA_2022,levofloxacin,specificity,0.7586206896551724,0.7096774193548387,0.7741935483870968,31,29,2,unresolved isolates assigned to the least or most favourable compatible prediction
+CHINA_NINGXIA_2022,levofloxacin,balanced_accuracy,0.5935960591133005,0.5617352614015573,0.6112347052280311,60,57,3,unresolved isolates assigned to the least or most favourable compatible prediction
+ZENODO_10369064,clarithromycin,sensitivity,0.9,0.782608695652174,0.9130434782608695,23,20,3,unresolved isolates assigned to the least or most favourable compatible prediction
+ZENODO_10369064,clarithromycin,specificity,0.9583333333333334,0.8518518518518519,0.9629629629629629,27,24,3,unresolved isolates assigned to the least or most favourable compatible prediction
+ZENODO_10369064,clarithromycin,balanced_accuracy,0.9291666666666667,0.817230273752013,0.9380032206119162,50,44,6,unresolved isolates assigned to the least or most favourable compatible prediction
+ZENODO_10369064,levofloxacin,sensitivity,0.875,0.7,0.9,20,16,4,unresolved isolates assigned to the least or most favourable compatible prediction
+ZENODO_10369064,levofloxacin,specificity,0.9565217391304348,0.7857142857142857,0.9642857142857143,28,23,5,unresolved isolates assigned to the least or most favourable compatible prediction
+ZENODO_10369064,levofloxacin,balanced_accuracy,0.9157608695652174,0.7428571428571429,0.9321428571428572,48,39,9,unresolved isolates assigned to the least or most favourable compatible prediction

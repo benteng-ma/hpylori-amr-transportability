@@ -1,0 +1,153 @@
+---
+title: "Supplementary methods and results inventory"
+author: "Benteng Ma; Bing Chen; Ting Cai; Xiao-ming Liu; Fen Wang"
+format: docx
+bibliography: ../literature/library.bib
+status: EXPANDED_COMPLETE_DRAFT
+---
+
+## Reproducibility and data lineage
+
+The canonical project directory was maintained in an independent version-controlled repository. Raw public inputs were never modified. Download manifests record dataset and isolate identifiers, source URL, expected and observed byte counts, source MD5, local SHA-256, validation state, and access date. Environment specifications are separated for the principal analysis, SKESA, Snippy, CheckM2, and figure generation. All execution corrections caused by canonical paths containing spaces were documented before performance inspection.
+
+## Phenotype linkage and breakpoints
+
+An isolate was eligible only when its phenotype identifier linked exactly to a public assembly or paired-read archive. Paper-level sample counts or aggregate resistance rates were insufficient. For Ningxia, all 360 isolate–drug MIC records were independently reconciled with the publication supplement. Six clarithromycin MIC values of 0.5 mg/L that were labelled susceptible in the article were retained as such in the primary analysis and flagged for recomputed/intermediate sensitivity analyses. Zenodo categorical labels were preserved verbatim because its overlapping levofloxacin disk thresholds could not be converted into a standard MIC endpoint without making unsupported assumptions.
+
+## Assembly marker calls
+
+Assembly target alignments required at least 90% identity. Assembly-based clarithromycin susceptibility additionally required at least 5% aligned-query coverage, explicit mapping of both U27270.1 feature positions 2143 and 2144, and absence of a frozen resistance mutation. Absence of the repeated target, incomplete spanning alignment, or ambiguous sequence yielded an uncallable result. Assembly-based levofloxacin susceptibility required at least 90% aligned-query coverage, callable codons 87, 88, and 91, and absence of every frozen *gyrA* resistance substitution.
+
+### Post-freeze 23S target-recovery sensitivity
+
+To distinguish a strict alignment threshold from missing marker-spanning assembly context, every Ningxia assembly was re-queried with `megablast` and the more sensitive `blastn` task. Minimum identity was varied across 70%, 80%, 90%, 95%, and 98%, and minimum aligned-query coverage across 0%, 1%, 5%, 25%, 50%, and 90%. Every grid cell retained the biologically essential requirement that both resistance-marker bases were explicitly mapped. This analysis was post-freeze and could not change primary predictions or transportability labels. Results were reconciled sample by sample with the corrected primary caller, which now reads the 90% identity requirement directly from `config/qc.yaml`.
+
+## Raw-read calls
+
+Paired reads underwent adapter detection, tail-window quality trimming (window 4; mean quality 20), overlap correction, and minimum length 50. Whole-genome mapping supported copy-specific 23S and *gyrA* pileups; a pooled 23S mapping supported allele fractions in the repeated gene. Each pileup recorded depth, counts for A/C/G/T, major base and fraction, callability, reference position, and resistant bases. Pooled A2142 resistance combined G and C fractions; A2143 used the G fraction. Fractions from 0.20 through 0.80 were retained as mixed-allele evidence rather than rounded to a clonal genotype.
+
+## Genome quality and attrition
+
+Basic and CheckM2 quality results were retained as separate columns. The final pass required every frozen gate. Target-level uncallability was reported separately from genome-level exclusion. Diagnostic denominators included only S/R phenotypes and S/R predictions; phenotype-linked totals and callability were reported so that exclusions could not inflate apparent performance silently.
+
+### Assembly-quality and target-callability associations
+
+Post-freeze explanatory analyses compared callable and uncallable targets within each sequence-product cohort using contig count, log10 N50, CheckM2 completeness, and CheckM2 contamination. Mann–Whitney tests, Cliff's delta, and descriptive univariable area under the receiver-operating-characteristic curve were reported without multivariable model selection. Empty comparison groups were retained as not estimable. These analyses did not redefine genome QC or target callability.
+
+## Near-clone grouping
+
+Mash sketches were generated for every final-QC assembly. Only pairs within Mash distance 0.005 underwent skani audit; this permissive screen did not define a near clone. The frozen conjunction (Mash at most 0.001, ANI at least 99.9%, both aligned fractions at least 0.90) defined graph edges. Connected components, including singleton components, received stable group identifiers.
+
+## Core-SNP clusters
+
+Snippy assembly mode deterministically shreds contigs to 20-fold pseudo-read coverage; its base-quality option is therefore not evidence of original read quality. SNP features were alternate-allele-specific, permitting multiallelic sites. Features invariant within HpGP were excluded even if they differed only in an external cohort. Dimensional reduction and K-means fitting used HpGP rows only. Stable labels were ordered by the first development-cohort embedding coordinate.
+
+### Development-manifold proximity and lineage-composition shift
+
+The first 10 development-fitted component scores were standardized by HpGP means and standard deviations. For each external genome, geometric support was summarized as the mean Euclidean distance to the five nearest HpGP genomes; self-neighbours were excluded when deriving the HpGP reference distribution. External distances were converted to empirical HpGP percentiles. Jensen–Shannon distance summarized divergence between each external fixed-cluster distribution and HpGP. Within an external drug analysis, correct and incorrect calls were compared by Mann–Whitney tests and Cliff's delta. This post-freeze explanatory analysis did not refit the embedding, clusters, catalogues, or outcomes and was not interpreted as a calibrated probability of distribution shift.
+
+## Bootstrap and intervals
+
+Clopper–Pearson intervals were used for proportions. For composite metrics, near-clone components were sampled with replacement; every isolate within a sampled component was retained. The number of sampled components equalled the observed number of components. Two thousand replicates used the fixed seed 20260830.
+
+### Influence, decision-grid, and prevalence scenarios
+
+For Ningxia levofloxacin, each isolate was removed once and the frozen confusion matrix, false-susceptible rate, and balanced accuracy were recomputed. Transportability labels were also evaluated on a two-dimensional grid of minimum resistant/susceptible external denominators and false-susceptible thresholds; the prespecified setting remained visually marked. Positive and negative predictive values were calculated over assumed resistance prevalences from the observed cohort sensitivity and specificity. These prevalence curves are mathematical scenarios, not empirical calibration or a substitute for validation in a population with that prevalence.
+
+### Four-domain transport-shift decomposition
+
+Post-freeze explanatory analyses separated analytic availability, population shift, conditional transport, and clinical error severity. Analytic availability used the already frozen target-callability denominators. Population shift was quantified by two L2-logistic cohort discriminators using only development-fitted PC1-PC10: HpGP versus Ningxia and HpGP versus the read cohort. Five-fold cross-validation was stratified by cohort and grouped by the frozen near-clone component. All probabilities were out of fold. AUC intervals used 2,000 group-bootstrap replicates, and null distributions used 1,000 cohort-label permutations with seed 20260830. The discriminator is a dataset-shift diagnostic, not a resistance predictor and not a causal population model.
+
+Conditional transport was estimated within each fixed computational SNP cluster. Exact intervals were calculated for sensitivity, specificity, false-susceptible rate, resistance among marker-negative isolates, and resistance among marker-positive isolates. Cluster 3 was prespecified for the dominant-lineage comparison because it contained 52/57 Ningxia and 44/46 read-cohort final-QC genomes. Ningxia estimates were compared with HpGP and the read cohort by two-sided Fisher exact tests. Separately, HpGP sensitivity and specificity were directly standardized to each external cohort's phenotype-specific lineage frequencies. These analyses did not alter any prediction or catalogue.
+
+Clinical severity retained the reported Ningxia MIC operator and treated values reported as greater than 32 mg/L as lower bounds of 32 mg/L for rank and threshold summaries. Detected and missed resistant isolates were compared descriptively across MIC thresholds of 2, 4, 8, 16, and 32 mg/L. No uncensored mean or parametric MIC model was fitted.
+
+### Coverage-aware bounds, selective reporting, and external heterogeneity
+
+The coverage-aware cascade began with every phenotype-linked isolate having a binary S/R label, before genome-QC, target-callability, or primary-analysis exclusions. For each cohort and drug, the cascade recorded genome-QC pass, target-callable, primary-evaluable, correct, incorrect, and unresolved counts. The actionable-correct-result yield was the correct primary count divided by the complete phenotype-linked binary denominator. It is not interchangeable with diagnostic accuracy among evaluable isolates.
+
+Sensitivity and specificity were also partially identified without assuming that unresolved isolates resembled callable isolates. Lower bounds assigned all unresolved resistant isolates to false-susceptible predictions and all unresolved susceptible isolates to false-resistant predictions; upper bounds assigned them to the corresponding correct predictions. Balanced-accuracy bounds averaged the paired sensitivity and specificity bounds. These are sharp logical ranges under the observed outcome and missing-result counts, not confidence intervals and not imputed estimates.
+
+For phenotype-blind selective reporting, isolates were accepted only when their development five-nearest-neighbour distance fell at or below a fixed empirical HpGP percentile. Cutoffs of 5%, 10%, 20%, 50%, 75%, 90%, 95%, 99%, and 100% were evaluated. The distance representation, HpGP reference distribution, and cutoffs were independent of external phenotypes. Each accepted subset was evaluated against the frozen minimum-denominator, sensitivity, specificity, and false-susceptible-rate gates; no cutoff could refit a marker catalogue or change the primary classification.
+
+Full-cohort levofloxacin sensitivity, specificity, and false-susceptible-rate differences between Ningxia and the read cohort were expressed as Ningxia minus read-cohort risk differences. Independent-proportion uncertainty used Newcombe hybrid-score intervals, and two-sided Fisher exact tests compared the corresponding 2×2 tables. The balanced-accuracy difference used the empirical difference between the two existing 2,000-replicate near-clone-group bootstrap distributions. Because phenotype procedure, sequence product, and study were jointly different, these contrasts quantify heterogeneity without attributing a causal source.
+
+## Random-panel and label-permutation controls
+
+Each random panel contained the same number of features as the frozen drug panel. For each frozen marker prevalence in HpGP, a distinct core-SNP allele was sampled from the nearest HpGP frequency band (minimum absolute difference plus 0.005). Candidate frequencies were calculated without phenotype labels and without external sequences. Selected positions, alleles, target prevalence, observed prevalence, and absolute difference were written for every repeat. For label permutations, only training outcomes were permuted; validation and external outcomes were never altered.
+
+## Source-genotype reproducibility audit
+
+Ningxia source-reported genotype categories were transcribed independently from the publication's supplementary tables and reconciled against the separately transcribed 60-isolate phenotype table. Source genotype categories were analysed only as audit comparators. They were never used to replace an uncallable target or an independently recalled genotype from the current public assembly.
+
+For levofloxacin, targeted *gyrA* alignments and Snippy whole-genome alignments were treated as independent sequence callers. Amino-acid substitutions at residues 87, 88, and 91 were derived separately and reduced to the same frozen catalogue. All 57 final-QC Ningxia assemblies produced concordant frozen-panel calls under the two callers. Source-reported and independently recalled genotype categories agreed for 31/57 assemblies. The audit cannot determine whether discordance arose from sequence-version differences, isolate linkage, within-isolate variation, or pipeline differences because source-matched raw reads and checksums were unavailable.
+
+### Full-*gyrA* missense residual scan and N87Y scenario
+
+Every amino-acid substitution recoverable from the Ningxia final-QC Snippy `snps.tab` files across the annotated *gyrA* coding sequence was enumerated. Each variant was tested against the resistant phenotype by two-sided Fisher exact test; Benjamini–Hochberg correction was applied across the full scanned variant set. This analysis was explicitly post-freeze and hypothesis-generating. A separate add-only N87Y scenario quantified the largest performance change attributable to the single off-panel QRDR substitution seen among false-susceptible isolates. Neither analysis was permitted to alter the frozen catalogue or transportability label.
+
+## Execution deviations and recovery
+
+All execution-only corrections were recorded before affected outputs were accepted. Tools that split the canonical Windows path at spaces were run from a temporary no-space runtime copy while inputs and final outputs remained checksum-linked to the canonical project. The full Snippy call set was completed without changing variant thresholds. A two-byte overwrite of the display alignment during a shell-level validation check was detected before lineage analysis; the corrupted artifact was preserved in the log directory, and the alignment was deterministically recovered from the intact `core.full.aln`. The recovered alignment contained 518 records of 236,415 nucleotides and had SHA-256 `9743C65AA1CF45045C88A95439800832D3C23741917E74765F510B8D8E12C5D9` before use.
+
+The first figure-generation attempt lacked the frozen plotting environment and generated no accepted figure. The plotting dependencies were then installed in the isolated project environment, and all figure formats were regenerated from source tables. These execution corrections did not alter cohorts, marker panels, phenotypes, diagnostic denominators, or transportability gates.
+
+## Supplementary results inventory
+
+The Supplementary Tables section of this document prints reviewer-readable summaries for Tables S1-S11 and S13-S20. Each table is generated directly from the same versioned CSV outputs used for the analysis. Worksheet S12 is a machine-readable provenance manifest for figure source-data files; because it contains file inventory metadata rather than scientific results, it is retained in `submission/Supplementary_Data_S1-S20.xlsx` and the repository but is not reproduced as a paginated table. The workbook also retains the complete row-level records, including the 526-isolate crosswalk, sample-level predictions, 2,000-replicate bootstrap and permutation outputs, and other tables that are too large to reproduce in full in this document.
+
+1. **Table S1 — isolate–sequence–phenotype–prediction crosswalk:** `results/external_validation/isolate_sequence_phenotype_crosswalk.csv`, joined from `metadata/isolate_manifest.csv`, `metadata/phase2/acquisition_assemblies.csv`, `metadata/phase2/acquisition_reads.csv`, complete QC, lineage assignments, and frozen sample predictions.
+2. **Table S2 — complete genome quality and target callability:** `results/qc/assembly_qc_with_checkm2.csv` and `results/qc/panel_callability.csv`.
+3. **Table S3 — relatedness groups and phenotype-blind lineage assignments:** `results/qc/near_clone_groups.csv`, `results/qc/pairwise_relatedness_candidates.csv`, and `results/lineage_validation/lineage_assignments.csv`.
+4. **Table S4 — frozen-panel sample predictions:** `results/external_validation/sample_level_predictions.csv`.
+5. **Table S5 — cohort-, country-, and lineage-stratified performance:** `results/external_validation/frozen_panel_metrics.csv`.
+6. **Table S6 — validation-design benchmark:** `results/lineage_validation/leakage_benchmark_folds.csv` and `results/lineage_validation/leakage_benchmark_summary.csv`.
+7. **Table S7 — phenotype and breakpoint sensitivity analyses:** `results/sensitivity/phenotype_sensitivity_metrics.csv`.
+8. **Table S8 — negative controls:** the compact CSV files in `results/negative_controls/`, including clone thinning, raw-read/assembly concordance, random SNP panels, and label permutations.
+9. **Table S9 — Ningxia MIC lower-bound summaries:** `results/mic/ningxia_mic_lower_bound_summary.csv`.
+10. **Table S10 — Ningxia source-genotype and independent-caller audit:** `results/external_validation/ningxia_published_genotype_audit_samples.csv` and `results/external_validation/ningxia_published_genotype_audit_summary.csv`.
+11. **Table S11 — frozen transportability classification:** `results/external_validation/transportability_classification.csv` and its JSON equivalent.
+12. **Worksheet S12 — figure source-data provenance (workbook only):** `results/source_data/main_figure_manifest.csv` and all panel-level CSV files in `results/source_data/`.
+13. **Table S13 — marker architecture and prevalence shifts:** `results/extended_analysis/mutation_spectrum_samples.csv`, `mutation_spectrum_summary.csv`, `marker_combination_summary.csv`, `marker_phenotype_prevalence_shift.csv`, and `marker_prevalence_by_lineage.csv`.
+14. **Table S14 — assembly quality and target callability:** `results/extended_analysis/qc_callability_samples.csv` and `qc_callability_associations.csv`.
+15. **Table S15 — development-manifold and lineage-composition analyses:** `results/extended_analysis/development_manifold_distance.csv`, `development_manifold_summary.csv`, `external_error_manifold_samples.csv`, and `external_error_manifold_associations.csv`.
+16. **Table S16 — Ningxia levofloxacin residual mechanism audit:** `results/extended_analysis/ningxia_lvx_error_audit_enriched.csv`, `ningxia_lvx_false_susceptible_decomposition.csv`, `ningxia_gyrA_missense_samples.csv`, `ningxia_gyrA_missense_associations.csv`, and `exploratory_N87Y_rescue.csv`.
+17. **Table S17 — stability and prevalence scenarios:** `results/extended_analysis/external_bootstrap_distributions.csv`, `ningxia_lvx_leave_one_out_influence.csv`, `predictive_values_by_assumed_prevalence.csv`, and `transport_gate_robustness_grid.csv`.
+18. **Table S18 — four-domain transport-shift decomposition and failure atlas:** all CSV files in `results/transport_shift/`, including lineage-specific conditional performance, Fisher comparisons, lineage standardization weights, out-of-fold cohort-discriminator predictions and permutation nulls, Ningxia resistant-MIC severity, and the per-isolate failure atlas.
+19. **Table S19 — 23S target-recovery sensitivity:** `results/extended_analysis/23s_callability_sensitivity_summary.csv`, `23s_callability_sensitivity_grid.csv`, and `23s_callability_sensitivity_samples.csv`.
+20. **Table S20 — coverage-aware and selective-use stress tests:** `results/extended_analysis/coverage_aware_yield.csv`, `callability_identification_bounds.csv`, `manifold_abstention_metrics.csv`, `external_performance_differences.csv`, and `coverage_selective_summary.csv`.
+
+Supplementary Data S1-S20 are consolidated as `submission/Supplementary_Data_S1-S20.xlsx`. Each stacked record retains a `source_file` field so the workbook remains traceable to the versioned CSV output. The Word/PDF tables are intended for reading and peer review; the workbook is the complete machine-readable companion rather than a substitute for tables in this document.
+
+## Key supplementary findings
+
+The frozen genome-quality gate retained 517/526 materialized genomes. Four two-member near-clone components were detected, all within HpGP, and none linked an internal and external cohort. The read-based cohort's raw and support-assembly predictions agreed whenever both were callable (44/44 clarithromycin and 41/41 levofloxacin). Near-clone thinning did not change external cohort classifications. Across 100 repeats, size- and prevalence-matched phenotype-blind random SNP panels and training-label permutations produced mean balanced accuracies approximately equal to chance.
+
+The frozen transportability label was `INSUFFICIENT_DATA` for clarithromycin because only the read cohort met the minimum external diagnostic denominator. The label was `HIGH_FALSE_SUSCEPTIBLE_RISK` for levofloxacin because the Ningxia false-susceptible rate was 57.1%, exceeding the frozen 10% gate. These machine labels summarize the prespecified decision rules and do not replace cohort-specific estimates or uncertainty intervals.
+
+General assembly metrics did not distinguish the six Ningxia 23S-callable assemblies from the 54 uncallable assemblies (all P≥0.199), supporting a target- or repeat-specific failure rather than a simple genome-wide quality explanation. Across 60 BLAST task/identity/coverage settings, every grid cell retained exactly six callable final-QC assemblies; 53/60 assemblies had partial 23S-like hits without marker-spanning context, and no final-QC sample was rescued by threshold relaxation. External cohort lineage compositions differed strongly from HpGP, yet external genomes occupied dense regions of the development manifold. Ningxia levofloxacin errors were no farther from HpGP than correct calls (P=0.968).
+
+Among 16 Ningxia levofloxacin false-susceptible isolates, 15 were QRDR wild type in both independent call sets and one carried off-panel N87Y. Adding N87Y alone reduced the false-susceptible rate only from 57.1% to 53.6%. No full-*gyrA* missense variant passed false-discovery correction (minimum adjusted P=0.313). Removing any one Ningxia isolate retained a false-susceptible rate of 55.6–59.3%.
+
+Phenotype-blind PC-only discriminators separated HpGP from Ningxia and the read cohort with out-of-fold AUCs of 0.899 and 0.918; both permutation P values were 0.001. Within dominant SNP cluster 3, Ningxia levofloxacin sensitivity remained 12/23 versus 22/22 in HpGP (P=0.00020), and resistance among frozen-marker-negative isolates was 11/33 versus 0/38 (P=0.000076). HpGP standardized to Ningxia phenotype-specific lineage weights retained 100% sensitivity and specificity, indicating that marginal lineage composition did not reproduce the performance loss. The 16 false-susceptible isolates had a median lower-bound MIC of 16 mg/L; 11/16 were at least 8 mg/L and six were right-censored above 32 mg/L.
+
+Coverage-aware accounting further reduced the apparent deployable yield: only 6/60 Ningxia isolates yielded a correct clarithromycin result and 34/60 yielded a correct levofloxacin result. The unresolved clarithromycin isolates expanded the logical full-cohort sensitivity range to 6.5-100% and specificity range to 13.8-100%. Development-distance abstention did not rescue levofloxacin: the lowest eligible Ningxia false-susceptible rate was 50.0% at 87.7% retained coverage. Compared with the read cohort, Ningxia levofloxacin sensitivity was lower by 44.6 percentage points (95% interval -63.3 to -15.0; P=0.0046), and balanced accuracy was lower by 32.2 points (bootstrap interval -47.1 to -17.4).
+
+## Supplementary figures
+
+![Supplementary Figure S1. Assembly-quality metrics and target callability. Within-cohort distributions and effect estimates show that general assembly continuity and CheckM2 summaries did not explain Ningxia 23S rRNA target recovery.](../figures/supplementary/Supplementary_Figure_S1_QC_callability_effects.png){#fig-supp-qc width=100%}
+
+![Supplementary Figure S2. Full-*gyrA* missense residual scan in Ningxia. (a) All missense substitutions are positioned by amino-acid coordinate. (b) The 20 smallest nominal Fisher exact *P* values are ranked; no substitution passed the Benjamini–Hochberg false-discovery threshold.](../figures/supplementary/Supplementary_Figure_S2_gyrA_residual_scan.png){#fig-supp-gyra width=100%}
+
+![Supplementary Figure S3. Phenotype and breakpoint sensitivity scenarios. Prespecified alternative phenotype interpretations are shown for (a) the false-susceptible rate and (b) balanced accuracy alongside the primary analysis; none converted the frozen transportability conclusions.](../figures/supplementary/Supplementary_Figure_S3_phenotype_sensitivity.png){#fig-supp-phenotype width=100%}
+
+![Supplementary Figure S4. Lineage-specific levofloxacin conditional performance. (a) Sensitivity, (b) specificity, (c) false-susceptible rate, and (d) resistance among marker-negative isolates are shown for every fixed SNP cluster with an estimable denominator. Sparse external strata retain wide intervals and are descriptive.](../figures/supplementary/Supplementary_Figure_S4_lineage_conditional_transport.png){#fig-supp-lineage-conditional width=100%}
+
+![Supplementary Figure S5. Adversarial validation of genomic cohort shift. Out-of-fold receiver-operating-characteristic curves are shown for PC1-PC10 discriminators separating HpGP from (a) Ningxia and (b) the read cohort. (c) Mean fold AUC under 1,000 cohort-label permutations; vertical lines show observed values. (d) Full-data standardized PC coefficients are descriptive and are not interpreted causally.](../figures/supplementary/Supplementary_Figure_S5_adversarial_cohort_shift.png){#fig-supp-adversarial width=100%}
+
+![Supplementary Figure S6. Ningxia levofloxacin per-isolate failure atlas. (a) Frozen outcome, phenotype, prediction, source-reported genotype, and source-versus-recall agreement, ordered by error class. (b) Lower-bound MIC spectrum. (c) Development-manifold distance percentile. (d) Full-*gyrA* missense-substitution burden. The atlas localizes the failure pattern without selecting new markers.](../figures/supplementary/Supplementary_Figure_S6_Ningxia_failure_atlas.png){#fig-supp-failure-atlas width=100%}
+
+![Supplementary Figure S7. Post-freeze 23S target-recovery sensitivity. Final-QC callable counts across identity and aligned-query coverage grids are shown using (a) `megablast` and (b) `blastn`. (c) Best 23S-like hit identity and coverage, with point size indicating coincident assemblies. (d) Recovery classification across all 60 Ningxia assemblies. Every grid setting retained the requirement that both resistance-marker bases were spanned; threshold relaxation rescued no additional final-QC assembly.](../figures/supplementary/Supplementary_Figure_S7_23S_callability_sensitivity.png){#fig-supp-23s-sensitivity width=100%}
+
+![Supplementary Figure S8. Coverage-aware and selective-use stress tests. (a) Correct, incorrect, and unresolved outcomes among all phenotype-linked binary isolates. (b, c) Logical sensitivity and specificity bounds when unresolved isolates are assigned to the least or most favourable compatible prediction; points show the evaluable-subset estimates and the dashed line marks 90%. (d) Ningxia-minus-read-cohort levofloxacin metric differences with 95% intervals. (e) External coverage retained across fixed HpGP development-distance percentile cutoffs. (f) False-susceptible rate versus retained coverage; the dashed line marks the frozen 10% gate. The abstention rule used no external phenotype.](../figures/supplementary/Supplementary_Figure_S8_coverage_selective_stress.png){#fig-supp-coverage-selective width=100%}
+

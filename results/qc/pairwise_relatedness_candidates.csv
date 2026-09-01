@@ -1,0 +1,5 @@
+dataset_a,isolate_a,dataset_b,isolate_b,mash_distance,mash_p_value,mash_shared_hashes,skani_ani_percent,skani_align_fraction_a,skani_align_fraction_b,near_clone
+HPGP_GLOBAL,FRA-012,HPGP_GLOBAL,FRA-014,0.000143503,0,994/1000,99.99,1.0,0.9933,yes
+HPGP_GLOBAL,GRE-041,HPGP_GLOBAL,GRE-046,9.55247e-05,0,996/1000,99.99,1.0,1.0,yes
+HPGP_GLOBAL,POL-106,HPGP_GLOBAL,POL-108,4.76906e-05,0,998/1000,99.99,1.0,1.0,yes
+HPGP_GLOBAL,TUR-002,HPGP_GLOBAL,TUR-005,0.000458924,0,981/1000,99.92,0.9994,0.9987999999999999,yes

@@ -1,0 +1,5 @@
+comparison,antibiotic,metric,ningxia_estimate,read_cohort_estimate,absolute_difference,difference_ci_low,difference_ci_high,ci_method,fisher_exact_p
+Ningxia minus read cohort,levofloxacin,sensitivity,0.42857142857142855,0.875,-0.44642857142857145,-0.6330611274234665,-0.1497935816798851,Newcombe independent-proportion difference interval,0.004614271335482203
+Ningxia minus read cohort,levofloxacin,specificity,0.7586206896551724,0.9565217391304348,-0.19790104947526244,-0.3811216753466121,0.00681218525085478,Newcombe independent-proportion difference interval,0.06350502230352043
+Ningxia minus read cohort,levofloxacin,false_susceptible_rate,0.5714285714285714,0.125,0.4464285714285714,0.14979358167988505,0.6330611274234664,Newcombe independent-proportion difference interval,0.004614271335482204
+Ningxia minus read cohort,levofloxacin,balanced_accuracy,0.5935960591133005,0.9157608695652174,-0.3221648104519169,-0.47080711797462615,-0.17403485254072307,"empirical difference of independent 2,000 near-clone-group bootstrap distributions",

@@ -1,0 +1,16 @@
+[
+  {
+    "antibiotic": "clarithromycin",
+    "transportability_label": "INSUFFICIENT_DATA",
+    "reason": "fewer than two estimable external cohorts with at least 10 S and 10 R",
+    "external_cohorts_required": "CHINA_NINGXIA_2022;ZENODO_10369064",
+    "geographic_scope": "two Chinese external cohorts; no global claim"
+  },
+  {
+    "antibiotic": "levofloxacin",
+    "transportability_label": "HIGH_FALSE_SUSCEPTIBLE_RISK",
+    "reason": "at least one eligible external cohort exceeded the frozen 0.10 false-susceptible gate",
+    "external_cohorts_required": "CHINA_NINGXIA_2022;ZENODO_10369064",
+    "geographic_scope": "two Chinese external cohorts; no global claim"
+  }
+]

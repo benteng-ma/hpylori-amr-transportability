@@ -1,0 +1,10 @@
+finding,estimate,detail
+CHINA_NINGXIA_2022_clarithromycin_actionable_correct_yield,0.1,6/60 phenotype-linked isolates yielded a correct primary result
+CHINA_NINGXIA_2022_levofloxacin_actionable_correct_yield,0.5666666666666667,34/60 phenotype-linked isolates yielded a correct primary result
+CHINA_NINGXIA_2022_clarithromycin_sensitivity_logical_bounds,1.0,logical bounds 0.064516-1.000000
+CHINA_NINGXIA_2022_clarithromycin_specificity_logical_bounds,1.0,logical bounds 0.137931-1.000000
+CHINA_NINGXIA_2022_levofloxacin_best_eligible_manifold_abstention,0.5,cutoff=0.20; retained_coverage=0.877193; safety_gate=no
+external_levofloxacin_difference_sensitivity,-0.44642857142857145,95% interval -0.633061--0.149794; Fisher P=0.004614271335482203
+external_levofloxacin_difference_specificity,-0.19790104947526244,95% interval -0.381122-0.006812; Fisher P=0.06350502230352043
+external_levofloxacin_difference_false_susceptible_rate,0.4464285714285714,95% interval 0.149794-0.633061; Fisher P=0.004614271335482204
+external_levofloxacin_difference_balanced_accuracy,-0.3221648104519169,95% interval -0.470807--0.174035; Fisher P=NE

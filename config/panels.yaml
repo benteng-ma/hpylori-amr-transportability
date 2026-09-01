@@ -1,0 +1,9 @@
+status: FROZEN_PHASE1_BASELINE
+rule_sources:
+  hpgp_2026_catalogue:
+    clarithromycin: ["23S:r.2142A>G", "23S:r.2142A>C", "23S:r.2143A>G"]
+    levofloxacin: ["gyrA:A88V", "gyrA:A88P", "gyrA:N87K", "gyrA:N87I", "gyrA:D91G", "gyrA:D91N", "gyrA:D91Y"]
+notes:
+  - Frozen on 2026-08-30 as the published deterministic baseline; no result-driven marker additions are allowed.
+  - Common 23S labels A2142/A2143 map to U27270.1 feature positions 2143/2144 in the HpGP alignment convention.
+  - New exploratory markers must be evaluated separately and cannot replace the frozen baseline.

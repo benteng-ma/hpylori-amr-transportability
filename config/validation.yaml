@@ -1,0 +1,41 @@
+status: FROZEN_2026-08-30_CONDITIONAL_GO
+split_priority:
+  - LEAVE_STUDY_OUT
+  - LEAVE_COUNTRY_OUT
+  - LEAVE_LINEAGE_OUT
+  - CLONE_GROUPED_SPLIT
+  - RANDOM_ISOLATE_SPLIT
+bootstrap_unit_priority: [patient_id, near_clone_group]
+classification_labels:
+  - ROBUSTLY_TRANSPORTABLE
+  - TRANSPORTABLE_WITH_LINEAGE_MODIFICATION
+  - STUDY_DEPENDENT
+  - LINEAGE_DEPENDENT
+  - PHENOTYPE_METHOD_SENSITIVE
+  - HIGH_FALSE_SUSCEPTIBLE_RISK
+  - NON_TRANSPORTABLE
+  - INSUFFICIENT_DATA
+  - GENOMICALLY_UNRESOLVED
+minimum_heldout_group:
+  n: 30
+  susceptible: 10
+  resistant: 10
+near_clone_definition:
+  skani_ani_percent_min: 99.9
+  aligned_fraction_each_min: 0.90
+  mash_distance_max: 0.001
+read_callability:
+  depth_min: 10
+  base_quality_min: 20
+  mapping_quality_min: 20
+  major_allele_fraction_min: 0.80
+  mixed_allele_fraction: [0.20, 0.80]
+bootstrap:
+  replicates: 2000
+  seed: 20260830
+robust_transportability_gate:
+  sensitivity_min: 0.90
+  specificity_min: 0.90
+  false_susceptible_rate_max: 0.10
+  max_between_cohort_absolute_metric_difference: 0.10
+thresholds_status: FROZEN_BEFORE_FULL_PERFORMANCE_INSPECTION
