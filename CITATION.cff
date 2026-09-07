@@ -1,13 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the archived release and associated article when available."
-title: "External validation of genomic resistance prediction in Helicobacter pylori across independent cohorts"
+title: "Failure modes of genomic resistance prediction across independent Helicobacter pylori cohorts"
 type: software
-version: 1.0.0
-date-released: 2026-09-01
-doi: "10.5281/zenodo.22234594"
+version: 1.0.1
+date-released: 2026-09-07
 license: MIT
 repository-code: "https://github.com/benteng-ma/hpylori-amr-transportability"
-abstract: "Lineage-aware external validation of published Helicobacter pylori genomic antimicrobial-resistance predictors."
+abstract: "Code and compact derived data for evaluating fixed Helicobacter pylori resistance rules across independent cohorts, including target callability, provenance, population context and error direction."
 authors:
   - family-names: Ma
     given-names: Benteng
@@ -15,6 +14,8 @@ authors:
   - family-names: Chen
     given-names: Bing
     orcid: "https://orcid.org/0000-0001-8828-9678"
+  - family-names: Deng
+    given-names: Aojian
   - family-names: Cai
     given-names: Ting
     orcid: "https://orcid.org/0000-0002-8910-3289"

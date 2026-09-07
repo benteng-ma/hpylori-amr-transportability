@@ -37,6 +37,6 @@ def test_required_manifest_headers_are_frozen():
         assert observed == expected
 
 
-def test_canonical_root_is_e_drive():
+def test_public_checkout_root_is_portable():
     text = (ROOT / "config/project.yaml").read_text(encoding="utf-8")
-    assert 'canonical_root: "E:/1 Codex project/hpylori-amr-transportability"' in text
+    assert 'canonical_root: "."' in text

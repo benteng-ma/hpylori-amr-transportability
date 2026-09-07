@@ -1,0 +1,4 @@
+dataset_id,phenotype_linked,sequence_materialized,final_qc_pass,sequence_source,final_qc_fail
+HPGP_GLOBAL,419,414,414,public assembly,0
+CHINA_NINGXIA_2022,60,60,57,public assembly,3
+ZENODO_10369064,52,52,46,paired reads + SKESA,6

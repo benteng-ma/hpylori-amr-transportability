@@ -1,0 +1,7 @@
+dataset_id,antibiotic,n_phenotype_linked,n_callable,n_uncallable,callability,sequence_support
+CHINA_NINGXIA_2022,clarithromycin,60,6,54,0.1,ASSEMBLY_ONLY
+CHINA_NINGXIA_2022,levofloxacin,60,57,3,0.95,ASSEMBLY_ONLY
+HPGP_GLOBAL,clarithromycin,414,414,0,1.0,ASSEMBLY_ONLY
+HPGP_GLOBAL,levofloxacin,414,414,0,1.0,ASSEMBLY_ONLY
+ZENODO_10369064,clarithromycin,52,46,6,0.8846153846153846,RAW_READ_POOLED_23S_WITH_COPY_AUDIT
+ZENODO_10369064,levofloxacin,52,42,10,0.8076923076923077,RAW_READ_SUPPORTED

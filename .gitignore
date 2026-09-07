@@ -56,3 +56,7 @@ reports/qa_word/
 reports/qa_author_update/
 qa/
 outputs/
+
+# Generated previews from the publication-update renderers
+release_updates/v1.0.1/rendered_figure1/
+release_updates/v1.0.1/rendered_figure5/
