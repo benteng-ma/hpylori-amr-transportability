@@ -4,6 +4,8 @@ This repository contains the fixed analysis configuration, executable workflows,
 
 The current revision materials are in [release_updates/v1.0.2](release_updates/v1.0.2/README.md). Version 1.0.2 corrects the population used for secondary assembly-quality comparisons by restricting those comparisons to final-genome-QC-passing records. It provides the revised Tables S2 and S6, Supplementary Figure S1, source data, executable scripts, recorded environment and matching supplementary workbook.
 
+Version 1.0.3 corrects one source-screening annotation in metadata/dataset_manifest.csv: the study-defined levofloxacin disk-zone categories are resistant <13 mm, intermediate 13–17 mm and susceptible >17 mm. These zone categories are not directly comparable with MIC-based breakpoints. The code, data, numerical results, S2/S6 tables, Figure S1 and supplementary workbook are identical to v1.0.2. For source-zone interpretation, the corrected cutoffs above supersede earlier overlap descriptions in historical planning reports and manuscript/update directories.
+
 ## Reproduce the revision
 
 From the repository root, install the recorded Python dependencies and run the following commands.
@@ -25,11 +27,12 @@ The six main figures and their source data are documented in [release_updates/v1
 
 The citation order is Benteng Ma, Bing Chen, Aojian Deng, Ting Cai, Xiao-ming Liu and Fen Wang. Ma and Chen share first authorship. Liu and Wang are co-corresponding authors. Author identifiers and the release date are in CITATION.cff.
 
+- [v1.0.3](https://github.com/benteng-ma/hpylori-amr-transportability/releases/tag/v1.0.3) corrects the dataset-manifest levofloxacin zone annotation; the scientific payload is unchanged from v1.0.2.
 - [v1.0.2](https://github.com/benteng-ma/hpylori-amr-transportability/releases/tag/v1.0.2), archived at [10.5281/zenodo.24361066](https://doi.org/10.5281/zenodo.24361066), provides the QC-conditioned R1 correction and matching supplementary data.
 - [v1.0.1](https://github.com/benteng-ma/hpylori-amr-transportability/releases/tag/v1.0.1), archived at [10.5281/zenodo.22647135](https://doi.org/10.5281/zenodo.22647135), records the six-figure layout and derived provenance audit.
 - [v1.0.0](https://github.com/benteng-ma/hpylori-amr-transportability/releases/tag/v1.0.0), archived at [10.5281/zenodo.22234594](https://doi.org/10.5281/zenodo.22234594), records the original analysis.
 
-The v1.0.2 release tag and its Zenodo archive preserve commit `250e4021afdaf011ff9413d25cd38ae9ada7adcf`. The main branch adds the assigned DOI to citation metadata after archiving.
+The v1.0.2 release tag and its Zenodo archive preserve commit `250e4021afdaf011ff9413d25cd38ae9ada7adcf`.
 
 ## Data and licence boundary
 
