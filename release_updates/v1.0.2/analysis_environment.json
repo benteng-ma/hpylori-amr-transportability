@@ -1,0 +1,24 @@
+{
+  "python": "3.13.11",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "scipy": "1.16.3",
+  "scikit_learn": "1.8.0",
+  "matplotlib": "3.10.8",
+  "mann_whitney": {
+    "alternative": "two-sided",
+    "method": "auto",
+    "use_continuity": true,
+    "minimum_each_group": 3
+  },
+  "effect_direction": "callable minus uncallable",
+  "input_sha256": "49eb8aa893a5ffbfe1d4173c8f6696881902bce370913a303d94e2d16fb111b6",
+  "input_rows": 1052,
+  "QC_pass_sample_drug_rows": 1034,
+  "scope": "secondary assembly-quality comparison within final-genome-QC-passing records",
+  "randomness": "none",
+  "original_run_input_sha256": "b0464ebb4df0e49db5db0e71322a78e0b0a853a581cc3d073a3beae57dbc4758",
+  "archived_input_sha256": "49eb8aa893a5ffbfe1d4173c8f6696881902bce370913a303d94e2d16fb111b6",
+  "original_and_archived_records_identical": true,
+  "input_serialization_difference": "Original run input uses CRLF; archived input uses LF. All 1,052 parsed records and field values are identical."
+}

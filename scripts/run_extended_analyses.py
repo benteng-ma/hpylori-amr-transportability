@@ -204,6 +204,7 @@ def qc_callability(predictions: pd.DataFrame, qc: pd.DataFrame, output: Path) ->
     association_rows = []
     metrics = ["contigs", "log10_n50_bp", "completeness_percent", "contamination_percent"]
     for (dataset, drug), part in joined.groupby(["dataset_id", "antibiotic"], sort=False):
+        part = part.loc[part["final_qc_status"].eq("PASS")]
         for metric in metrics:
             available = part[["callable_binary", metric]].dropna()
             yes = available.loc[available["callable_binary"] == 1, metric].to_numpy(dtype=float)
