@@ -250,7 +250,7 @@ def main() -> None:
         {"control_id": 7, "control": "alternative_breakpoint_interpretation", "status": "COMPUTED_ELSEWHERE", "output": "phenotype_sensitivity_metrics.csv", "reason": "original and recomputed Ningxia labels with I sensitivities"},
         {"control_id": 8, "control": "exclude_borderline_MIC", "status": "COMPUTED_ELSEWHERE", "output": "phenotype_sensitivity_metrics.csv", "reason": "prespecified borderline flag"},
         {"control_id": 9, "control": "AST_method_strata", "status": "COMPUTED_ELSEWHERE", "output": "phenotype_sensitivity_metrics.csv", "reason": "method-specific descriptive estimates"},
-        {"control_id": 10, "control": "unified_laboratory_AST", "status": "COMPUTED_ELSEWHERE", "output": "frozen_panel_metrics.csv", "reason": "cohort-specific estimates preserve laboratory/study separation"},
+        {"control_id": 10, "control": "unified_laboratory_AST", "status": "NOT_PERFORMED", "output": "", "reason": "No common-method laboratory data were available across cohorts; no harmonized-assay comparison was performed."},
         {"control_id": 11, "control": "high_quality_genomes_only", "status": "COMPUTED_ELSEWHERE", "output": "phenotype_sensitivity_metrics.csv", "reason": "frozen complete genome-QC pass"},
         {"control_id": 12, "control": "country_strata", "status": "COMPUTED_ELSEWHERE", "output": "frozen_panel_metrics.csv", "reason": "country-specific descriptive estimates"},
         {"control_id": 13, "control": "lineage_strata", "status": "COMPUTED_ELSEWHERE", "output": "frozen_panel_metrics.csv", "reason": "predeclared estimability gate plus descriptive sensitivity table"},
