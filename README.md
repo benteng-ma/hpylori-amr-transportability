@@ -29,7 +29,7 @@ The six main figures and their source data are documented in [release_updates/v1
 
 The citation order is Benteng Ma, Bing Chen, Aojian Deng, Ting Cai, Xiao-ming Liu and Fen Wang. Ma and Chen share first authorship. Liu and Wang are co-corresponding authors. Author identifiers and the release date are in CITATION.cff.
 
-- [v1.0.4](https://github.com/benteng-ma/hpylori-amr-transportability/releases/tag/v1.0.4) provides the streamlined reader workbook without changing the analyses.
+- [v1.0.4](https://github.com/benteng-ma/hpylori-amr-transportability/releases/tag/v1.0.4), archived at [10.5281/zenodo.24384297](https://doi.org/10.5281/zenodo.24384297), provides the streamlined reader workbook without changing the analyses.
 - [v1.0.3](https://github.com/benteng-ma/hpylori-amr-transportability/releases/tag/v1.0.3), archived at [10.5281/zenodo.24361451](https://doi.org/10.5281/zenodo.24361451), corrects the dataset-manifest levofloxacin zone annotation; the scientific payload is unchanged from v1.0.2.
 - [v1.0.2](https://github.com/benteng-ma/hpylori-amr-transportability/releases/tag/v1.0.2), archived at [10.5281/zenodo.24361066](https://doi.org/10.5281/zenodo.24361066), provides the QC-conditioned R1 correction and matching supplementary data.
 - [v1.0.1](https://github.com/benteng-ma/hpylori-amr-transportability/releases/tag/v1.0.1), archived at [10.5281/zenodo.22647135](https://doi.org/10.5281/zenodo.22647135), records the six-figure layout and derived provenance audit.
@@ -38,6 +38,8 @@ The citation order is Benteng Ma, Bing Chen, Aojian Deng, Ting Cai, Xiao-ming Li
 The v1.0.2 release tag and its Zenodo archive preserve commit `250e4021afdaf011ff9413d25cd38ae9ada7adcf`.
 
 The v1.0.3 release tag and its Zenodo archive preserve commit `8b90c137e4904fa8a678221a7f00eea9fcb7f370`.
+
+The v1.0.4 release tag and its Zenodo archive preserve commit `60498854bc9259c85113db6935ff20ebc9fa818d`. The main branch adds the assigned DOI to citation metadata after archiving.
 
 ## Data and licence boundary
 
